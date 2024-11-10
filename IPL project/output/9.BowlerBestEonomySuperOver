@@ -1,0 +1,35 @@
+//bowlers with the best economy in super overs
+
+[
+    {
+        "name": "R Rampaul",
+        "TotalRuns": "0"
+    },
+    {
+        "name": "CH Morris",
+        "TotalRuns": "0"
+    },
+    {
+        "name": "MG Johnson",
+        "TotalRuns": "0"
+    }
+]
+
+
+// economy of all bowlers in super over
+
+{
+  'JP Faulkner': { TotalRuns: '1' },
+  'JJ Bumrah': { TotalRuns: '1' },
+  'Kamran Khan': { TotalRuns: '1' },
+  'BAW Mendis': { TotalRuns: '6' },
+  'J Theron': { TotalRuns: '1' },
+  'M Muralitharan': { TotalRuns: '6' },
+  'R Vinay Kumar': { TotalRuns: '2' },
+  'DW Steyn': { TotalRuns: '2' },
+  'UT Yadav': { TotalRuns: '1' },
+  'R Rampaul': { TotalRuns: '0' },
+  'SP Narine': { TotalRuns: '1' },
+  'CH Morris': { TotalRuns: '0' },
+  'MG Johnson': { TotalRuns: '0' }
+}
