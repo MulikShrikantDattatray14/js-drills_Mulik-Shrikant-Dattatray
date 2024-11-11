@@ -39,7 +39,6 @@ for (const key in matchesData) {
   }
 }
 
-// After processing all matches, log the result
 console.log(matchesWonPerTeam);
 
 

@@ -18,20 +18,20 @@ for (const key in matchesData) {
   let season = matchesData[key].season;
   let playerOfMatch = matchesData[key].player_of_match;
 
-  // Ensure there's an object to hold the match count for each year
+  
   if (playerOfTheMatchEachSeason[season] == undefined) {
-    playerOfTheMatchEachSeason[season] = {}; // Initialize the year in matchesWonPerTeam if not already
+    playerOfTheMatchEachSeason[season] = {}; 
   }
 
-  // If the winning team does not exist in the current year's object, initialize with 0 wins
+ 
   if (playerOfTheMatchEachSeason[season][playerOfMatch] == undefined) {
     playerOfTheMatchEachSeason[season][playerOfMatch] = 0;
   }
 
-  // Increment the win count for the winning team for this year
+
   playerOfTheMatchEachSeason[season][playerOfMatch]++;
 }
-// Find the player with the highest awards for each season
+
 let highestPlayerOfTheMatchPerSeason = {};
 
 for (const season in playerOfTheMatchEachSeason) {

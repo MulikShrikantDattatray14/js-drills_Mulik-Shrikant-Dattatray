@@ -13,7 +13,7 @@ if (!fs.existsSync(outputFolder)) {
 }
 
 const BestEconomySuperOver = {};
-//console.log(highestDismissal);
+
 
 for (const key in deliveriesData) {
   let each = deliveriesData[key];
@@ -23,16 +23,16 @@ for (const key in deliveriesData) {
     let TotalRuns = each.total_runs;
     let bowler = each.bowler;
 
-    // Ensure there's an object to hold the match count for each year
+   
     if (BestEconomySuperOver[bowler] == undefined) {
-      BestEconomySuperOver[bowler] = { TotalRuns: TotalRuns }; // Initialize the year in matchesWonPerTeam if not already
+      BestEconomySuperOver[bowler] = { TotalRuns: TotalRuns }; 
     }
   }
 }
 console.log(BestEconomySuperOver);
 const sortedData = Object.entries(BestEconomySuperOver)
   .sort((a, b) => parseInt(a[1].TotalRuns) - parseInt(b[1].TotalRuns)).slice(0, 3)  // Sort based on TotalRuns
-  .map(([name, stats]) => ({ name, ...stats })); // Convert back to object format
+  .map(([name, stats]) => ({ name, ...stats })); 
 
 console.log(sortedData);
 

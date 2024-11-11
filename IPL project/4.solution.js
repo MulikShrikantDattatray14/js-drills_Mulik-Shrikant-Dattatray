@@ -35,7 +35,7 @@ for (const key in matchesData) {
         let bowler = eachDeliveryDetails.bowler;
         let runs = Number(eachDeliveryDetails.total_runs);
         let over = Number(eachDeliveryDetails.over);
-        // console.log(bowler, runs, over);
+      
 
         if (bowlerRuns[bowler] == undefined) {
           bowlerRuns[bowler] = {
@@ -46,7 +46,7 @@ for (const key in matchesData) {
           }; // Initialize if not present
         }
 
-        bowlerRuns[bowler].runs_given += runs; // Add runs to the existing runs_given
+        bowlerRuns[bowler].runs_given += runs;
         bowlerRuns[bowler].eachOvers.add(over);
         bowlerRuns[bowler].totalOvers = bowlerRuns[bowler].eachOvers.size;
         bowlerRuns[bowler].economyRateeach = economyRate(
@@ -57,7 +57,7 @@ for (const key in matchesData) {
     }
   }
 }
-//console.log(bowlerRuns);
+
 const sortedData = Object.entries(bowlerRuns)
   .sort((a, b) => a[1].economyRateeach - b[1].economyRateeach)
   .map(([name, economyRateeach]) => ({ name, ...economyRateeach }));

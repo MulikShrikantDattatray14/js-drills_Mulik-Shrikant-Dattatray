@@ -18,21 +18,19 @@ for (const key in deliveriesData) {
   let batsmen = each.batsman;
   let bowler = each.bowler;
   if (dismissed !== "") {
-    // Ensure there's an object to hold the match count for each year
+   
     if (highestDismissal[batsmen] == undefined) {
-      highestDismissal[batsmen] = {}; // Initialize the year in matchesWonPerTeam if not already
+      highestDismissal[batsmen] = {};
     }
 
-    // If the winning team does not exist in the current year's object, initialize with 0 wins
     if (highestDismissal[batsmen][bowler] == undefined) {
       highestDismissal[batsmen][bowler] = 0;
     }
 
-    // Increment the win count for the winning team for this year
     highestDismissal[batsmen][bowler]++;
   }
 }
-//console.log(highestDismissal);
+
 fs.writeFileSync(
     path.join(outputFolder, "8.HIghestDismissalBatsmenByBowler"),
     JSON.stringify(highestDismissal, null, 4)

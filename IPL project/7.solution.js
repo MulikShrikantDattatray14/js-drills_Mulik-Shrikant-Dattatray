@@ -31,12 +31,12 @@ for (const key in matchesData) {
       let batsmanRuns = Number(every.batsman_runs);
       let batsman = every.batsman;
       let ball = every.ball;
-      // Ensure there's an object to hold the match count for each year
+     
       if (strikeRateEachSeason[season] == undefined) {
-        strikeRateEachSeason[season] = {}; // Initialize the year in matchesWonPerTeam if not already
+        strikeRateEachSeason[season] = {}; 
       }
 
-      // If the winning team does not exist in the current year's object, initialize with 0 wins
+      
       if (strikeRateEachSeason[season][batsman] == undefined) {
         strikeRateEachSeason[season][batsman] = {
           runs: 0,
@@ -46,7 +46,6 @@ for (const key in matchesData) {
         };
       }
 
-      // Increment the win count for the winning team for this year
       strikeRateEachSeason[season][batsman].runs =
         strikeRateEachSeason[season][batsman].runs + batsmanRuns;
       strikeRateEachSeason[season][batsman].nthballs.push(ball);
@@ -62,10 +61,10 @@ for (const key in matchesData) {
 }
 
 
-//console.log(output);
+
 
 fs.writeFileSync(
   path.join(outputFolder, "7.batsmanStrikeRatePerSeason"),
   JSON.stringify(strikeRateEachSeason, null, 4)
 );
-//console.log(strikeRateEachSeason);
+
