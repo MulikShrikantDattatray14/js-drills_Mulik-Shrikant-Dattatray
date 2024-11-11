@@ -18,7 +18,6 @@ for (const key in deliveriesData) {
   let batsmen = each.batsman;
   let bowler = each.bowler;
   if (dismissed !== "") {
-   
     if (highestDismissal[batsmen] == undefined) {
       highestDismissal[batsmen] = {};
     }
@@ -30,8 +29,38 @@ for (const key in deliveriesData) {
     highestDismissal[batsmen][bowler]++;
   }
 }
+//console.log(highestDismissal);
 
+// Step 2: Find the bowler who dismissed each batsman the most times
+const topDismissals = {};
+for (const batsman in highestDismissal) {
+  let bowlers = highestDismissal[batsman];
+  let maxDismissals = 0;
+  let topBowler = "";
+
+  for (const bowler in bowlers) {
+    if (bowlers[bowler] > maxDismissals) {
+      maxDismissals = bowlers[bowler];
+      topBowler = bowler;
+    }
+  }
+
+  // Store the result
+  topDismissals[batsman] = {
+    Bowler: topBowler,
+    Dismissals: maxDismissals,
+  };
+}
+
+
+//console.log(topDismissals);
+const sortedTopDismissals = Object.entries(topDismissals)
+  .sort((a, b) => b[1].Dismissals - a[1].Dismissals) // Sort in descending order by dismissals
+  
+
+
+//console.log(sortedTopDismissals);
 fs.writeFileSync(
-    path.join(outputFolder, "8.HIghestDismissalBatsmenByBowler"),
-    JSON.stringify(highestDismissal, null, 4)
-  );
+  path.join(outputFolder, "8.HIghestDismissalBatsmenByBowler"),
+  JSON.stringify(sortedTopDismissals, null, 4)
+);

@@ -34,3 +34,4 @@ fs.writeFileSync(
   path.join(outputFolder, "1.matchesPerYearAllSeasons"),
   JSON.stringify(matchesMap, null, 4)
 );
+
