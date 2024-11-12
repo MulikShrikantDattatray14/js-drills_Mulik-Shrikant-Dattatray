@@ -1,0 +1,2157 @@
+[
+    {
+        "batsman": "MS Dhoni",
+        "bowler": "Z Khan",
+        "dismissals": 7
+    },
+    {
+        "batsman": "PA Patel",
+        "bowler": "B Kumar",
+        "dismissals": 6
+    },
+    {
+        "batsman": "RG Sharma",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 6
+    },
+    {
+        "batsman": "AM Rahane",
+        "bowler": "B Kumar",
+        "dismissals": 6
+    },
+    {
+        "batsman": "G Gambhir",
+        "bowler": "Z Khan",
+        "dismissals": 6
+    },
+    {
+        "batsman": "V Kohli",
+        "bowler": "A Nehra",
+        "dismissals": 6
+    },
+    {
+        "batsman": "SR Watson",
+        "bowler": "AR Patel",
+        "dismissals": 5
+    },
+    {
+        "batsman": "AT Rayudu",
+        "bowler": "MM Sharma",
+        "dismissals": 5
+    },
+    {
+        "batsman": "SK Raina",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 5
+    },
+    {
+        "batsman": "RV Uthappa",
+        "bowler": "A Mishra",
+        "dismissals": 5
+    },
+    {
+        "batsman": "KC Sangakkara",
+        "bowler": "R Sharma",
+        "dismissals": 5
+    },
+    {
+        "batsman": "S Dhawan",
+        "bowler": "P Kumar",
+        "dismissals": 4
+    },
+    {
+        "batsman": "CH Gayle",
+        "bowler": "Sandeep Sharma",
+        "dismissals": 4
+    },
+    {
+        "batsman": "BB McCullum",
+        "bowler": "SL Malinga",
+        "dismissals": 4
+    },
+    {
+        "batsman": "KD Karthik",
+        "bowler": "A Nehra",
+        "dismissals": 4
+    },
+    {
+        "batsman": "SPD Smith",
+        "bowler": "RA Jadeja",
+        "dismissals": 4
+    },
+    {
+        "batsman": "KK Nair",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 4
+    },
+    {
+        "batsman": "SV Samson",
+        "bowler": "MJ McClenaghan",
+        "dismissals": 4
+    },
+    {
+        "batsman": "DR Smith",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 4
+    },
+    {
+        "batsman": "YK Pathan",
+        "bowler": "MM Sharma",
+        "dismissals": 4
+    },
+    {
+        "batsman": "NV Ojha",
+        "bowler": "RP Singh",
+        "dismissals": 4
+    },
+    {
+        "batsman": "GJ Maxwell",
+        "bowler": "A Mishra",
+        "dismissals": 4
+    },
+    {
+        "batsman": "AB de Villiers",
+        "bowler": "KH Pandya",
+        "dismissals": 4
+    },
+    {
+        "batsman": "MK Tiwary",
+        "bowler": "M Morkel",
+        "dismissals": 4
+    },
+    {
+        "batsman": "MK Pandey",
+        "bowler": "B Kumar",
+        "dismissals": 4
+    },
+    {
+        "batsman": "RA Jadeja",
+        "bowler": "A Mishra",
+        "dismissals": 4
+    },
+    {
+        "batsman": "Harbhajan Singh",
+        "bowler": "P Kumar",
+        "dismissals": 4
+    },
+    {
+        "batsman": "SC Ganguly",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 4
+    },
+    {
+        "batsman": "DJ Hussey",
+        "bowler": "SK Trivedi",
+        "dismissals": 4
+    },
+    {
+        "batsman": "JH Kallis",
+        "bowler": "RP Singh",
+        "dismissals": 4
+    },
+    {
+        "batsman": "AC Gilchrist",
+        "bowler": "IK Pathan",
+        "dismissals": 4
+    },
+    {
+        "batsman": "MEK Hussey",
+        "bowler": "Z Khan",
+        "dismissals": 4
+    },
+    {
+        "batsman": "SR Tendulkar",
+        "bowler": "PP Chawla",
+        "dismissals": 4
+    },
+    {
+        "batsman": "M Vijay",
+        "bowler": "S Aravind",
+        "dismissals": 4
+    },
+    {
+        "batsman": "DA Warner",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "Yuvraj Singh",
+        "bowler": "SL Malinga",
+        "dismissals": 3
+    },
+    {
+        "batsman": "STR Binny",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 3
+    },
+    {
+        "batsman": "KA Pollard",
+        "bowler": "B Kumar",
+        "dismissals": 3
+    },
+    {
+        "batsman": "MA Agarwal",
+        "bowler": "R Ashwin",
+        "dismissals": 3
+    },
+    {
+        "batsman": "AJ Finch",
+        "bowler": "P Negi",
+        "dismissals": 3
+    },
+    {
+        "batsman": "WP Saha",
+        "bowler": "DJ Bravo",
+        "dismissals": 3
+    },
+    {
+        "batsman": "AR Patel",
+        "bowler": "SP Narine",
+        "dismissals": 3
+    },
+    {
+        "batsman": "RR Pant",
+        "bowler": "JJ Bumrah",
+        "dismissals": 3
+    },
+    {
+        "batsman": "S Nadeem",
+        "bowler": "SP Narine",
+        "dismissals": 3
+    },
+    {
+        "batsman": "F du Plessis",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "DA Miller",
+        "bowler": "YS Chahal",
+        "dismissals": 3
+    },
+    {
+        "batsman": "SS Iyer",
+        "bowler": "Sandeep Sharma",
+        "dismissals": 3
+    },
+    {
+        "batsman": "AD Mathews",
+        "bowler": "UT Yadav",
+        "dismissals": 3
+    },
+    {
+        "batsman": "SE Marsh",
+        "bowler": "B Kumar",
+        "dismissals": 3
+    },
+    {
+        "batsman": "IK Pathan",
+        "bowler": "Z Khan",
+        "dismissals": 3
+    },
+    {
+        "batsman": "P Kumar",
+        "bowler": "SL Malinga",
+        "dismissals": 3
+    },
+    {
+        "batsman": "PP Chawla",
+        "bowler": "NLTC Perera",
+        "dismissals": 3
+    },
+    {
+        "batsman": "R Dravid",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "SK Warne",
+        "bowler": "A Mishra",
+        "dismissals": 3
+    },
+    {
+        "batsman": "V Sehwag",
+        "bowler": "SR Watson",
+        "dismissals": 3
+    },
+    {
+        "batsman": "Y Venugopal Rao",
+        "bowler": "SL Malinga",
+        "dismissals": 3
+    },
+    {
+        "batsman": "A Symonds",
+        "bowler": "A Mishra",
+        "dismissals": 3
+    },
+    {
+        "batsman": "DPMD Jayawardene",
+        "bowler": "M Muralitharan",
+        "dismissals": 3
+    },
+    {
+        "batsman": "DJ Bravo",
+        "bowler": "RP Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "HH Gibbs",
+        "bowler": "Z Khan",
+        "dismissals": 3
+    },
+    {
+        "batsman": "DB Ravi Teja",
+        "bowler": "SL Malinga",
+        "dismissals": 3
+    },
+    {
+        "batsman": "S Badrinath",
+        "bowler": "RP Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "R Vinay Kumar",
+        "bowler": "A Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "TM Dilshan",
+        "bowler": "I Sharma",
+        "dismissals": 3
+    },
+    {
+        "batsman": "KP Pietersen",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "TL Suman",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "GJ Bailey",
+        "bowler": "MC Henriques",
+        "dismissals": 3
+    },
+    {
+        "batsman": "R Ashwin",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 3
+    },
+    {
+        "batsman": "P Dogra",
+        "bowler": "R Bhatia",
+        "dismissals": 3
+    },
+    {
+        "batsman": "Shakib Al Hasan",
+        "bowler": "SL Malinga",
+        "dismissals": 3
+    },
+    {
+        "batsman": "Gurkeerat Singh",
+        "bowler": "AD Russell",
+        "dismissals": 3
+    },
+    {
+        "batsman": "KL Rahul",
+        "bowler": "DS Kulkarni",
+        "dismissals": 3
+    },
+    {
+        "batsman": "MG Johnson",
+        "bowler": "JP Faulkner",
+        "dismissals": 3
+    },
+    {
+        "batsman": "MC Henriques",
+        "bowler": "SR Watson",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Mandeep Singh",
+        "bowler": "VR Aaron",
+        "dismissals": 2
+    },
+    {
+        "batsman": "KM Jadhav",
+        "bowler": "JD Unadkat",
+        "dismissals": 2
+    },
+    {
+        "batsman": "JC Buttler",
+        "bowler": "A Nehra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "HH Pandya",
+        "bowler": "Mustafizur Rahman",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DT Christian",
+        "bowler": "UT Yadav",
+        "dismissals": 2
+    },
+    {
+        "batsman": "M Vohra",
+        "bowler": "PP Chawla",
+        "dismissals": 2
+    },
+    {
+        "batsman": "HM Amla",
+        "bowler": "B Kumar",
+        "dismissals": 2
+    },
+    {
+        "batsman": "P Negi",
+        "bowler": "CH Morris",
+        "dismissals": 2
+    },
+    {
+        "batsman": "AP Tare",
+        "bowler": "KK Cooper",
+        "dismissals": 2
+    },
+    {
+        "batsman": "CH Morris",
+        "bowler": "UT Yadav",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DS Kulkarni",
+        "bowler": "CJ Jordan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "CA Lynn",
+        "bowler": "JJ Bumrah",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SA Yadav",
+        "bowler": "JP Faulkner",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SP Narine",
+        "bowler": "MG Johnson",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RA Tripathi",
+        "bowler": "P Negi",
+        "dismissals": 2
+    },
+    {
+        "batsman": "R Bhatia",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 2
+    },
+    {
+        "batsman": "AB Dinda",
+        "bowler": "SL Malinga",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DJ Hooda",
+        "bowler": "SL Malinga",
+        "dismissals": 2
+    },
+    {
+        "batsman": "EJG Morgan",
+        "bowler": "UT Yadav",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Ishan Kishan",
+        "bowler": "Imran Tahir",
+        "dismissals": 2
+    },
+    {
+        "batsman": "KS Williamson",
+        "bowler": "CH Morris",
+        "dismissals": 2
+    },
+    {
+        "batsman": "CJ Anderson",
+        "bowler": "SP Narine",
+        "dismissals": 2
+    },
+    {
+        "batsman": "KV Sharma",
+        "bowler": "SR Watson",
+        "dismissals": 2
+    },
+    {
+        "batsman": "MJ Guptill",
+        "bowler": "B Kumar",
+        "dismissals": 2
+    },
+    {
+        "batsman": "JP Faulkner",
+        "bowler": "JJ Bumrah",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SL Malinga",
+        "bowler": "DJ Bravo",
+        "dismissals": 2
+    },
+    {
+        "batsman": "B Kumar",
+        "bowler": "RP Singh",
+        "dismissals": 2
+    },
+    {
+        "batsman": "LMP Simmons",
+        "bowler": "R Ashwin",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Z Khan",
+        "bowler": "DE Bollinger",
+        "dismissals": 2
+    },
+    {
+        "batsman": "A Mishra",
+        "bowler": "DE Bollinger",
+        "dismissals": 2
+    },
+    {
+        "batsman": "MV Boucher",
+        "bowler": "RP Singh",
+        "dismissals": 2
+    },
+    {
+        "batsman": "B Akhil",
+        "bowler": "JDP Oram",
+        "dismissals": 2
+    },
+    {
+        "batsman": "CL White",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 2
+    },
+    {
+        "batsman": "ML Hayden",
+        "bowler": "PJ Sangwan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "JDP Oram",
+        "bowler": "IK Pathan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "K Goel",
+        "bowler": "MS Gony",
+        "dismissals": 2
+    },
+    {
+        "batsman": "M Kaif",
+        "bowler": "S Sreesanth",
+        "dismissals": 2
+    },
+    {
+        "batsman": "ST Jayasuriya",
+        "bowler": "B Lee",
+        "dismissals": 2
+    },
+    {
+        "batsman": "AM Nayar",
+        "bowler": "IK Pathan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "LRPL Taylor",
+        "bowler": "SL Malinga",
+        "dismissals": 2
+    },
+    {
+        "batsman": "VVS Laxman",
+        "bowler": "AB Dinda",
+        "dismissals": 2
+    },
+    {
+        "batsman": "AS Yadav",
+        "bowler": "DW Steyn",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RP Singh",
+        "bowler": "DW Steyn",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Mohammad Hafeez",
+        "bowler": "ST Jayasuriya",
+        "dismissals": 2
+    },
+    {
+        "batsman": "S Sohal",
+        "bowler": "RP Singh",
+        "dismissals": 2
+    },
+    {
+        "batsman": "GC Smith",
+        "bowler": "MF Maharoof",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SS Tiwary",
+        "bowler": "PP Chawla",
+        "dismissals": 2
+    },
+    {
+        "batsman": "LR Shukla",
+        "bowler": "VRV Singh",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SM Katich",
+        "bowler": "A Symonds",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DW Steyn",
+        "bowler": "KA Pollard",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DB Das",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SA Asnodkar",
+        "bowler": "JA Morkel",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Umar Gul",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 2
+    },
+    {
+        "batsman": "JA Morkel",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Misbah-ul-Haq",
+        "bowler": "MF Maharoof",
+        "dismissals": 2
+    },
+    {
+        "batsman": "BJ Hodge",
+        "bowler": "Z Khan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "SP Goswami",
+        "bowler": "MM Patel",
+        "dismissals": 2
+    },
+    {
+        "batsman": "AD Mascarenhas",
+        "bowler": "R Bhatia",
+        "dismissals": 2
+    },
+    {
+        "batsman": "PP Ojha",
+        "bowler": "SK Raina",
+        "dismissals": 2
+    },
+    {
+        "batsman": "JP Duminy",
+        "bowler": "DP Nannes",
+        "dismissals": 2
+    },
+    {
+        "batsman": "JD Ryder",
+        "bowler": "IK Pathan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RS Bopara",
+        "bowler": "Kamran Khan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "PC Valthaty",
+        "bowler": "A Mishra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RJ Quiney",
+        "bowler": "A Nehra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "M Manhas",
+        "bowler": "R Sharma",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RJ Harris",
+        "bowler": "MM Patel",
+        "dismissals": 2
+    },
+    {
+        "batsman": "J Botha",
+        "bowler": "Anand Rajan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Y Nagar",
+        "bowler": "B Lee",
+        "dismissals": 2
+    },
+    {
+        "batsman": "CA Pujara",
+        "bowler": "JH Kallis",
+        "dismissals": 2
+    },
+    {
+        "batsman": "MS Bisla",
+        "bowler": "JA Morkel",
+        "dismissals": 2
+    },
+    {
+        "batsman": "OA Shah",
+        "bowler": "Z Khan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "MJ Lumb",
+        "bowler": "JA Morkel",
+        "dismissals": 2
+    },
+    {
+        "batsman": "R Sathish",
+        "bowler": "JA Morkel",
+        "dismissals": 2
+    },
+    {
+        "batsman": "MD Mishra",
+        "bowler": "P Kumar",
+        "dismissals": 2
+    },
+    {
+        "batsman": "UBT Chand",
+        "bowler": "B Lee",
+        "dismissals": 2
+    },
+    {
+        "batsman": "UT Yadav",
+        "bowler": "Z Khan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "AL Menaria",
+        "bowler": "YK Pathan",
+        "dismissals": 2
+    },
+    {
+        "batsman": "WD Parnell",
+        "bowler": "SP Narine",
+        "dismissals": 2
+    },
+    {
+        "batsman": "NLTC Perera",
+        "bowler": "A Nehra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "NL McCullum",
+        "bowler": "DE Bollinger",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DH Yagnik",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RE Levi",
+        "bowler": "DW Steyn",
+        "dismissals": 2
+    },
+    {
+        "batsman": "HV Patel",
+        "bowler": "A Nehra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RR Bhatkal",
+        "bowler": "DE Bollinger",
+        "dismissals": 2
+    },
+    {
+        "batsman": "N Saini",
+        "bowler": "DJ Bravo",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Azhar Mahmood",
+        "bowler": "A Mishra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "A Ashish Reddy",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 2
+    },
+    {
+        "batsman": "GH Vihari",
+        "bowler": "B Kumar",
+        "dismissals": 2
+    },
+    {
+        "batsman": "Q de Kock",
+        "bowler": "AB Dinda",
+        "dismissals": 2
+    },
+    {
+        "batsman": "BB Samantray",
+        "bowler": "JP Faulkner",
+        "dismissals": 2
+    },
+    {
+        "batsman": "DJG Sammy",
+        "bowler": "JP Faulkner",
+        "dismissals": 2
+    },
+    {
+        "batsman": "RR Rossouw",
+        "bowler": "A Nehra",
+        "dismissals": 2
+    },
+    {
+        "batsman": "D Wiese",
+        "bowler": "DJ Bravo",
+        "dismissals": 2
+    },
+    {
+        "batsman": "TM Head",
+        "bowler": "Rashid Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Sachin Baby",
+        "bowler": "Bipul Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Aravind",
+        "bowler": "A Nehra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "TS Mills",
+        "bowler": "B Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Choudhary",
+        "bowler": "BCJ Cutting",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KH Pandya",
+        "bowler": "R Bhatia",
+        "dismissals": 1
+    },
+    {
+        "batsman": "N Rana",
+        "bowler": "A Zampa",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BA Stokes",
+        "bowler": "HH Pandya",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JJ Roy",
+        "bowler": "PP Chawla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Vishnu Vinod",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SW Billings",
+        "bowler": "Iqbal Abdulla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CR Brathwaite",
+        "bowler": "YS Chahal",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PJ Cummins",
+        "bowler": "SR Watson",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CR Woakes",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DL Chahar",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Zampa",
+        "bowler": "A Mishra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BCJ Cutting",
+        "bowler": "JJ Bumrah",
+        "dismissals": 1
+    },
+    {
+        "batsman": "V Shankar",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Rashid Khan",
+        "bowler": "JJ Bumrah",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MP Stoinis",
+        "bowler": "SP Narine",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MM Sharma",
+        "bowler": "CR Woakes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "VR Aaron",
+        "bowler": "CR Woakes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MJ McClenaghan",
+        "bowler": "S Badree",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Ankit Sharma",
+        "bowler": "AJ Tye",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SN Thakur",
+        "bowler": "AJ Tye",
+        "dismissals": 1
+    },
+    {
+        "batsman": "C de Grandhomme",
+        "bowler": "B Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KC Cariappa",
+        "bowler": "CH Morris",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Badree",
+        "bowler": "JD Unadkat",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AF Milne",
+        "bowler": "BA Stokes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Mohammad Nabi",
+        "bowler": "Sandeep Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "I Sharma",
+        "bowler": "S Kaul",
+        "dismissals": 1
+    },
+    {
+        "batsman": "K Rabada",
+        "bowler": "JJ Bumrah",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AD Nath",
+        "bowler": "KC Cariappa",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AJ Tye",
+        "bowler": "Sandeep Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "NM Coulter-Nile",
+        "bowler": "P Negi",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Kuldeep Yadav",
+        "bowler": "S Aravind",
+        "dismissals": 1
+    },
+    {
+        "batsman": "YS Chahal",
+        "bowler": "C de Grandhomme",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Anureet Singh",
+        "bowler": "A Nehra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JJ Bumrah",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Mohammed Shami",
+        "bowler": "VR Aaron",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SP Jackson",
+        "bowler": "B Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PJ Sangwan",
+        "bowler": "JD Unadkat",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Basil Thampi",
+        "bowler": "JD Unadkat",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Ankit Soni",
+        "bowler": "JD Unadkat",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Bipul Sharma",
+        "bowler": "JD Unadkat",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MN Samuels",
+        "bowler": "KV Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Swapnil Singh",
+        "bowler": "CR Woakes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MM Patel",
+        "bowler": "B Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Tewatia",
+        "bowler": "SN Thakur",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CJ Jordan",
+        "bowler": "NM Coulter-Nile",
+        "dismissals": 1
+    },
+    {
+        "batsman": "IR Jaggi",
+        "bowler": "KV Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AS Rajpoot",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RT Ponting",
+        "bowler": "JH Kallis",
+        "dismissals": 1
+    },
+    {
+        "batsman": "W Jaffer",
+        "bowler": "AB Dinda",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AA Noffke",
+        "bowler": "SC Ganguly",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SB Joshi",
+        "bowler": "LR Shukla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JR Hopes",
+        "bowler": "P Amarnath",
+        "dismissals": 1
+    },
+    {
+        "batsman": "T Kohli",
+        "bowler": "GD McGrath",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DS Lehmann",
+        "bowler": "MF Maharoof",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Rawat",
+        "bowler": "R Bhatia",
+        "dismissals": 1
+    },
+    {
+        "batsman": "L Ronchi",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DJ Thornely",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PR Shah",
+        "bowler": "B Akhil",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SM Pollock",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Chanderpaul",
+        "bowler": "DS Kulkarni",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SB Styris",
+        "bowler": "Mohammad Hafeez",
+        "dismissals": 1
+    },
+    {
+        "batsman": "WPUJC Vaas",
+        "bowler": "AB Agarkar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SB Bangar",
+        "bowler": "M Kartik",
+        "dismissals": 1
+    },
+    {
+        "batsman": "B Lee",
+        "bowler": "SK Trivedi",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Kamran Akmal",
+        "bowler": "JR Hopes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Shahid Afridi",
+        "bowler": "R Bhatia",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MA Khote",
+        "bowler": "M Muralitharan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RR Sarwan",
+        "bowler": "A Nehra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Sreesanth",
+        "bowler": "DS Kulkarni",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AB Agarkar",
+        "bowler": "MS Gony",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Kartik",
+        "bowler": "JDP Oram",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Shoaib Malik",
+        "bowler": "VRV Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MF Maharoof",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "TM Srivastava",
+        "bowler": "VY Mahesh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "B Chipli",
+        "bowler": "MS Gony",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DNT Zoysa",
+        "bowler": "S Sreesanth",
+        "dismissals": 1
+    },
+    {
+        "batsman": "D Kalyankrishna",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Salman Butt",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SP Fleming",
+        "bowler": "VY Mahesh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Vidyut",
+        "bowler": "GD McGrath",
+        "dismissals": 1
+    },
+    {
+        "batsman": "LPC Silva",
+        "bowler": "V Kohli",
+        "dismissals": 1
+    },
+    {
+        "batsman": "YV Takawale",
+        "bowler": "VY Mahesh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Mohammad Asif",
+        "bowler": "DS Kulkarni",
+        "dismissals": 1
+    },
+    {
+        "batsman": "GD McGrath",
+        "bowler": "DS Kulkarni",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Joginder Sharma",
+        "bowler": "MM Patel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Muralitharan",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Ntini",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Anirudha",
+        "bowler": "RP Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Sohail Tanvir",
+        "bowler": "A Nehra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SK Trivedi",
+        "bowler": "DJ Bravo",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CK Kapugedera",
+        "bowler": "VY Mahesh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Chopra",
+        "bowler": "DW Steyn",
+        "dismissals": 1
+    },
+    {
+        "batsman": "T Taibu",
+        "bowler": "DW Steyn",
+        "dismissals": 1
+    },
+    {
+        "batsman": "J Arunkumar",
+        "bowler": "Umar Gul",
+        "dismissals": 1
+    },
+    {
+        "batsman": "VRV Singh",
+        "bowler": "L Balaji",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Niraj Patel",
+        "bowler": "MF Maharoof",
+        "dismissals": 1
+    },
+    {
+        "batsman": "VY Mahesh",
+        "bowler": "LR Shukla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Younis Khan",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "D Salunkhe",
+        "bowler": "JR Hopes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Shoaib Akhtar",
+        "bowler": "RR Raje",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DT Patil",
+        "bowler": "SK Warne",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Kumble",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "H Das",
+        "bowler": "CRD Fernando",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SD Chitnis",
+        "bowler": "VRV Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CRD Fernando",
+        "bowler": "VRV Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "VS Yeligati",
+        "bowler": "VRV Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MS Gony",
+        "bowler": "P Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "L Balaji",
+        "bowler": "DW Steyn",
+        "dismissals": 1
+    },
+    {
+        "batsman": "LA Pomersbach",
+        "bowler": "PP Ojha",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Mukund",
+        "bowler": "Sohail Tanvir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "WA Mota",
+        "bowler": "JA Morkel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Flintoff",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "T Henderson",
+        "bowler": "JD Ryder",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Kamran Khan",
+        "bowler": "A Kumble",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Bishnoi",
+        "bowler": "M Muralitharan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Yashpal Singh",
+        "bowler": "SK Warne",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Pankaj Singh",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "FH Edwards",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AS Raut",
+        "bowler": "PP Chawla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AN Ghosh",
+        "bowler": "AM Nayar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BAW Mendis",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DL Vettori",
+        "bowler": "MM Patel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RE van der Merwe",
+        "bowler": "I Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AA Bilakhia",
+        "bowler": "DL Vettori",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Shoaib Ahmed",
+        "bowler": "DP Nannes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "GR Napier",
+        "bowler": "CH Gayle",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MN van Wyk",
+        "bowler": "GR Napier",
+        "dismissals": 1
+    },
+    {
+        "batsman": "LA Carseldine",
+        "bowler": "Y Venugopal Rao",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SB Jakati",
+        "bowler": "DP Nannes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "D du Preez",
+        "bowler": "A Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RR Raje",
+        "bowler": "R Bhatia",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Morkel",
+        "bowler": "RG Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "C Nanda",
+        "bowler": "MM Patel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Singh",
+        "bowler": "A Mishra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AB McDonald",
+        "bowler": "A Kumble",
+        "dismissals": 1
+    },
+    {
+        "batsman": "T Thushara",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Mohammad Ashraful",
+        "bowler": "PJ Sangwan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Anirudh Singh",
+        "bowler": "LR Shukla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AA Jhunjhunwala",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Uniyal",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RR Powar",
+        "bowler": "DP Nannes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JM Kemp",
+        "bowler": "PP Ojha",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RS Gavaskar",
+        "bowler": "JM Kemp",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SE Bond",
+        "bowler": "R Ashwin",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Ladda",
+        "bowler": "ST Jayasuriya",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DP Nannes",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DR Martyn",
+        "bowler": "A Kumble",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Narwal",
+        "bowler": "P Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Jaskaran Singh",
+        "bowler": "S Sreesanth",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AB Barath",
+        "bowler": "PP Ojha",
+        "dismissals": 1
+    },
+    {
+        "batsman": "FY Fazal",
+        "bowler": "SE Bond",
+        "dismissals": 1
+    },
+    {
+        "batsman": "J Theron",
+        "bowler": "L Balaji",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AC Voges",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SJ Srivastava",
+        "bowler": "SW Tait",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Sharma",
+        "bowler": "S Narwal",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KAJ Roach",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PD Collingwood",
+        "bowler": "CK Langeveldt",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CK Langeveldt",
+        "bowler": "AB McDonald",
+        "dismissals": 1
+    },
+    {
+        "batsman": "VS Malik",
+        "bowler": "Z Khan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SW Tait",
+        "bowler": "V Sehwag",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Mithun",
+        "bowler": "A Mishra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AP Dole",
+        "bowler": "RJ Harris",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R McLaren",
+        "bowler": "R Ashwin",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Sriram",
+        "bowler": "AB Dinda",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Nehra",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KP Appanna",
+        "bowler": "RJ Harris",
+        "dismissals": 1
+    },
+    {
+        "batsman": "C Madan",
+        "bowler": "AB McDonald",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AG Paunikar",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MR Marsh",
+        "bowler": "Yuvraj Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "B Sumanth",
+        "bowler": "DE Bollinger",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Harmeet Singh",
+        "bowler": "M Muralitharan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RV Gomez",
+        "bowler": "DP Nannes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DJ Jacobs",
+        "bowler": "M Morkel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Sunny Singh",
+        "bowler": "M Kartik",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AUK Pathan",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JJ van der Wath",
+        "bowler": "DW Steyn",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Ninan",
+        "bowler": "DT Christian",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MS Wade",
+        "bowler": "R Sharma",
+        "dismissals": 1
+    },
+    {
+        "batsman": "TD Paine",
+        "bowler": "MM Patel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SB Wagh",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JEC Franklin",
+        "bowler": "SB Wagh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Randiv",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BJ Haddin",
+        "bowler": "J Syed Mohammad",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RN ten Doeschate",
+        "bowler": "M Morkel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "TR Birt",
+        "bowler": "YK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Klinger",
+        "bowler": "M Morkel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Harpreet Singh",
+        "bowler": "SR Watson",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AC Blizzard",
+        "bowler": "AC Thomas",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CA Ingram",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KB Arun Karthik",
+        "bowler": "Iqbal Abdulla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "ND Doshi",
+        "bowler": "P Parameswaran",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CJ Ferguson",
+        "bowler": "JP Duminy",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Y Gnaneswara Rao",
+        "bowler": "DJ Bravo",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Rana",
+        "bowler": "L Balaji",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DE Bollinger",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DJ Harris",
+        "bowler": "DE Bollinger",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KK Cooper",
+        "bowler": "MM Patel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AA Chavan",
+        "bowler": "KA Pollard",
+        "dismissals": 1
+    },
+    {
+        "batsman": "GB Hogg",
+        "bowler": "MM Patel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CJ McKay",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AC Thomas",
+        "bowler": "MS Gony",
+        "dismissals": 1
+    },
+    {
+        "batsman": "RJ Peterson",
+        "bowler": "M Morkel",
+        "dismissals": 1
+    },
+    {
+        "batsman": "V Pratap Singh",
+        "bowler": "SL Malinga",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MJ Clarke",
+        "bowler": "V Pratap Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AP Majumdar",
+        "bowler": "J Botha",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PA Reddy",
+        "bowler": "PP Chawla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AD Russell",
+        "bowler": "P Parameswaran",
+        "dismissals": 1
+    },
+    {
+        "batsman": "A Chandila",
+        "bowler": "V Pratap Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Sunny Gupta",
+        "bowler": "SB Jakati",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MC Juneja",
+        "bowler": "L Balaji",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MDKJ Perera",
+        "bowler": "UT Yadav",
+        "dismissals": 1
+    },
+    {
+        "batsman": "B Laughlin",
+        "bowler": "KA Pollard",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BMAJ Mendis",
+        "bowler": "KA Pollard",
+        "dismissals": 1
+    },
+    {
+        "batsman": "P Awana",
+        "bowler": "DP Nannes",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Rampaul",
+        "bowler": "DJ Bravo",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SMSM Senanayake",
+        "bowler": "P Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BJ Rohrer",
+        "bowler": "JD Unadkat",
+        "dismissals": 1
+    },
+    {
+        "batsman": "J Syed Mohammad",
+        "bowler": "UT Yadav",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Dhawan",
+        "bowler": "STR Binny",
+        "dismissals": 1
+    },
+    {
+        "batsman": "LJ Wright",
+        "bowler": "Azhar Mahmood",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AG Murtaza",
+        "bowler": "CH Gayle",
+        "dismissals": 1
+    },
+    {
+        "batsman": "IC Pandey",
+        "bowler": "CH Gayle",
+        "dismissals": 1
+    },
+    {
+        "batsman": "X Thalaivan Sargunam",
+        "bowler": "DJ Bravo",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KW Richardson",
+        "bowler": "CH Morris",
+        "dismissals": 1
+    },
+    {
+        "batsman": "CM Gautam",
+        "bowler": "SR Watson",
+        "dismissals": 1
+    },
+    {
+        "batsman": "UA Birla",
+        "bowler": "Iqbal Abdulla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Parvez Rasool",
+        "bowler": "L Balaji",
+        "dismissals": 1
+    },
+    {
+        "batsman": "NJ Maddinson",
+        "bowler": "Mohammed Shami",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JDS Neesham",
+        "bowler": "PP Chawla",
+        "dismissals": 1
+    },
+    {
+        "batsman": "TG Southee",
+        "bowler": "RA Jadeja",
+        "dismissals": 1
+    },
+    {
+        "batsman": "MA Starc",
+        "bowler": "R Bhatia",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BR Dunk",
+        "bowler": "DJG Sammy",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PV Tambe",
+        "bowler": "IK Pathan",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Shivam Sharma",
+        "bowler": "MA Starc",
+        "dismissals": 1
+    },
+    {
+        "batsman": "VH Zol",
+        "bowler": "R Tewatia",
+        "dismissals": 1
+    },
+    {
+        "batsman": "R Shukla",
+        "bowler": "MA Starc",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Imran Tahir",
+        "bowler": "STR Binny",
+        "dismissals": 1
+    },
+    {
+        "batsman": "BE Hendricks",
+        "bowler": "JJ Bumrah",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M de Lange",
+        "bowler": "Imran Tahir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Gopal",
+        "bowler": "Imran Tahir",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JO Holder",
+        "bowler": "R Vinay Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "JD Unadkat",
+        "bowler": "MG Johnson",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SA Abbott",
+        "bowler": "TA Boult",
+        "dismissals": 1
+    },
+    {
+        "batsman": "AN Ahmed",
+        "bowler": "B Kumar",
+        "dismissals": 1
+    },
+    {
+        "batsman": "SN Khan",
+        "bowler": "RA Jadeja",
+        "dismissals": 1
+    },
+    {
+        "batsman": "DJ Muthuswami",
+        "bowler": "D Wiese",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Iqbal Abdulla",
+        "bowler": "DJ Bravo",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Karanveer Singh",
+        "bowler": "MA Starc",
+        "dismissals": 1
+    },
+    {
+        "batsman": "Sandeep Sharma",
+        "bowler": "YS Chahal",
+        "dismissals": 1
+    },
+    {
+        "batsman": "J Suchith",
+        "bowler": "YS Chahal",
+        "dismissals": 1
+    },
+    {
+        "batsman": "M Ashwin",
+        "bowler": "KW Richardson",
+        "dismissals": 1
+    },
+    {
+        "batsman": "NS Naik",
+        "bowler": "Mustafizur Rahman",
+        "dismissals": 1
+    },
+    {
+        "batsman": "PSP Handscomb",
+        "bowler": "Harbhajan Singh",
+        "dismissals": 1
+    },
+    {
+        "batsman": "UT Khawaja",
+        "bowler": "A Mishra",
+        "dismissals": 1
+    },
+    {
+        "batsman": "S Kaushik",
+        "bowler": "Sachin Baby",
+        "dismissals": 1
+    },
+    {
+        "batsman": "F Behardien",
+        "bowler": "YS Chahal",
+        "dismissals": 1
+    },
+    {
+        "batsman": "KJ Abbott",
+        "bowler": "YS Chahal",
+        "dismissals": 1
+    },
+    {
+        "batsman": "C Munro",
+        "bowler": "DJ Hooda",
+        "dismissals": 1
+    },
+    {
+        "batsman": "ER Dwivedi",
+        "bowler": "SR Watson",
+        "dismissals": 1
+    }
+]
