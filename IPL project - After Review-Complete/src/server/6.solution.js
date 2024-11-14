@@ -32,7 +32,7 @@ exports.highestNoOfPlayerOfMatchPerSeason = function () {
     // Increment the count for the Player of the Match
     playerOfTheMatchEachSeason[season][player_of_match]++;
   });
-//console.log(playerOfTheMatchEachSeason)
+  console.log(playerOfTheMatchEachSeason)
   // Step 2: Find the player with the highest number of Player of the Match awards per season
   const highestPlayerOfTheMatchPerSeason = {};
 
@@ -57,10 +57,7 @@ exports.highestNoOfPlayerOfMatchPerSeason = function () {
   return highestPlayerOfTheMatchPerSeason;
 };
 
-// Complexity:
-// The time complexity : (O(M + S * P)), where:
-
+// The time complexity : (O(M + S * P))
 // M is the number of matches in matchesData
 // S is the number of seasons
 // P is the number of players in each season
-// Space Complexity: The space complexity will be O(M) for storing all the player counts in the Map for each season, which is proportional to the size of matchesData.

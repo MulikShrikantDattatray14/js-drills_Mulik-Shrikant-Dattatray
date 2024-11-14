@@ -41,4 +41,3 @@ exports.matchesWonPerTeamPerYear = function () {
 
 
 //Time Complexity: O(n), where n is the number of match objects in matchesData.
-//Space Complexity: O(n), where n is the number of match objects in matchesData, because in the worst case, there could be one entry for each match in the final accumulator object. The actual space complexity depends on the number of unique years and teams but will still generally be O(n) in practice.

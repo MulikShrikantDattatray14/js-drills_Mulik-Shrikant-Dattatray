@@ -27,7 +27,7 @@ exports.extraRunsConcededPerTeamIn2016 = function () {
     map[matchId].push(delivery);
     return map;
   }, {});
-
+  // console.log(deliveriesMap["1"])
   // Step 3: Calculate extra runs for each bowling team using reduce HOF-For each match, we access its deliveries in constant time O(1) using the map, and then we sum up the extra_runs in O(d), where d is the average number of deliveries per match. This is optimal because we're iterating over each delivery only once and accumulating the runs.
   const extraRunsByTeam = matches2016.reduce((acc, match) => {
     // Get deliveries for this match
@@ -55,6 +55,4 @@ exports.extraRunsConcededPerTeamIn2016 = function () {
 // Example usage:
 exports.extraRunsConcededPerTeamIn2016();
 
-// Final Conclusion:
-//overall time complexity is O(n + m), which is linear with respect to the number of matches and deliveries, and it is optimal.
-// overall space complexity is O(m + n_2016 + t)
+//overall time complexity is O(n + m), which is linear with respect to the number of matches and deliveries.

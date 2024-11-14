@@ -69,7 +69,7 @@ exports.Top10EconomicalBowlersIn2015 = function () {
     const totalOvers = totalBallsBowledByBowler / 6; // Convert balls to overs
 
     // Economy rate calculation (runs / overs)
-    const economyRate = totalOvers > 0 ? runsConceded / totalOvers : Infinity;
+    const economyRate = runsConceded / totalOvers ;
 
     return { bowler, economyRate };
   });
@@ -83,12 +83,8 @@ exports.Top10EconomicalBowlersIn2015 = function () {
   return topBowlers;
 };
 
-// Example usage:
-// console.log(exports.Top10EconomicalBowlersIn2015());
-
-// Example usage:
 exports.Top10EconomicalBowlersIn2015;
 
 //Total Time Complexity: O(m + n + b log b), where m is the number of matches, n is the number of deliveries, and b is the number of bowlers.
 
-//Total Space Complexity: O(m + b) where m is the number of matches and b is the number of bowlers.
+

@@ -6,7 +6,7 @@ const path = require("path"); // Module to work with file paths
 //1. Number of matches played per year for all the years in IPL.
 
 exports.matchesPerYearAllSeasons = function () {
-  //Object.values(array) on an array will return the array's elements (which are the objects themselves in your case).
+  //Object.values(array) on an array will return the array's elements (which are the objects themselves in this case).
   //reduce() iterate over each match object in matchesData.
   return Object.values(matchesData).reduce((matchesMap, match) => {
     const year = match.season;
@@ -24,4 +24,4 @@ exports.matchesPerYearAllSeasons = function () {
 };
 
 //Time Complexity: O(n), where n is the number of match objects in matchesData.
-//Space Complexity: O(n + k), where n is the number of match objects, and k is the number of unique years in the data.
+

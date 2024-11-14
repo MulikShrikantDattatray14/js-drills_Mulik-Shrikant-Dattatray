@@ -37,7 +37,7 @@ exports.HIghestDismissalBatsmenByBowler = function () {
       dismissalsCount[batsman][bowler]++;
     }
   });
-
+//console.log(dismissalsCount)
   // Step 2: Find the bowler with the most dismissals for each batsman
   const topDismissals = Object.entries(dismissalsCount).map(([batsman, bowlers]) => {
     let topBowler = { bowler: "", dismissals: 0 };
@@ -65,8 +65,6 @@ exports.HIghestDismissalBatsmenByBowler = function () {
 
 
 
-// Complexity:
+
 // Time Complexity:
-// O(n): The main loop over deliveriesData is O(n), where n is the number of deliveries.
-// O(m): The inner loop runs for each batsman’s bowlers, where m is the average number of bowlers each batsman has faced. This is generally much smaller than n, so it can be treated as O(m) for each batsman.
-// O(k log k): The final sort step where k is the number of batsmen. This is O(k log k) but will typically not be large since k is usually much smaller than n.
+//The overall time complexity is O(n + m log m), where n is the number of deliveries and m is the number of unique batsmen.

@@ -49,7 +49,7 @@ exports.BowlerBestEonomySuperOver = function () {
 
   // Step 3: Sort bowlers by their economy rate in ascending order (lowest economy rate first)
   economyRates.sort((a, b) => a.EcoRateEach - b.EcoRateEach);
- // console.log(economyRates);
+  // console.log(economyRates);
   // Step 4: Return the bowler with the best economy rate
   if (economyRates.length > 0) {
     const topBowler = economyRates[0];
@@ -60,10 +60,5 @@ exports.BowlerBestEonomySuperOver = function () {
 
 // Time Complexity:
 // O(n + m), where:
-//  n is the number of deliveries in `deliveriesData`
+//  n is the number of deliveries in deliveriesData
 // m is the number of unique bowlers
-
-// Space Complexity:
-// (m + n), where:
-//   m` is the number of unique bowlers
-// `n` is the number of deliveries in `deliveriesData`

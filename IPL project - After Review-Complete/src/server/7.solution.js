@@ -18,14 +18,13 @@ function BatsmenStrikeRate(Total_Runs_Scored, Balls_Faced) {
   return Balls_Faced === 0 ? 0 : (Total_Runs_Scored / Balls_Faced) * 100;
 }
 
-
 exports.batsmanStrikeRatePerSeason = function () {
   // Initialize an accumulator for the results
   const strikeRateEachSeason = {};
 
   // Preprocess deliveries into a map by match_id for faster lookup
   const deliveriesByMatchId = deliveriesData.reduce((acc, delivery) => {
-    if (acc[delivery.match_id]==undefined) {
+    if (acc[delivery.match_id] == undefined) {
       acc[delivery.match_id] = [];
     }
     acc[delivery.match_id].push(delivery);
@@ -40,7 +39,7 @@ exports.batsmanStrikeRatePerSeason = function () {
     const deliveries = deliveriesByMatchId[matchId];
     if (deliveries) {
       // Initialize the season object if not present
-      if (strikeRateEachSeason[season]==undefined) {
+      if (strikeRateEachSeason[season] == undefined) {
         strikeRateEachSeason[season] = {};
       }
 
@@ -54,7 +53,7 @@ exports.batsmanStrikeRatePerSeason = function () {
         } = delivery;
 
         // Initialize batsman data if not present
-        if (!strikeRateEachSeason[season][batsman]) {
+        if (strikeRateEachSeason[season][batsman]==undefined) {
           strikeRateEachSeason[season][batsman] = { runs: 0, ballsFaced: 0 };
         }
 
@@ -73,14 +72,15 @@ exports.batsmanStrikeRatePerSeason = function () {
   for (let season in strikeRateEachSeason) {
     for (let batsman in strikeRateEachSeason[season]) {
       const { runs, ballsFaced } = strikeRateEachSeason[season][batsman];
-      strikeRateEachSeason[season][batsman].StrikeRateEach = BatsmenStrikeRate(runs, ballsFaced);
+      strikeRateEachSeason[season][batsman].StrikeRateEach = BatsmenStrikeRate(
+        runs,
+        ballsFaced
+      );
     }
   }
 
   return strikeRateEachSeason;
 };
-
-
 
 // Time Complexity: O(M + N + S * B).
 
@@ -88,8 +88,4 @@ exports.batsmanStrikeRatePerSeason = function () {
 // N is the number of deliveries.
 // S is the number of seasons.
 // B is the number of batsmen.
-// Space Complexity: O(N + S * B).
 
-// N is the number of deliveries.
-// S is the number of seasons.
-// B is the number of batsmen.
