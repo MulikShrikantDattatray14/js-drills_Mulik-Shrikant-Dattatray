@@ -43,7 +43,7 @@ function deleteFile(filePath) {
   });
 }
 
-// Function to delete all files in a directory sequentially using new Promise constructor 
+// Function to delete all files in a directory simultaneously using Promise.all
 function deleteAllFilesInDirectory(directoryPath) {
   return new Promise((resolve, reject) => {
     fs.readdir(directoryPath, (err, files) => {
@@ -56,24 +56,17 @@ function deleteAllFilesInDirectory(directoryPath) {
         return resolve("No files to delete.");
       }
 
-      // Sequential file deletion using a for loop
-      let promises = [];
-
-      // Loop through each file and create a promise for its deletion
-      for (let i = 0; i < files.length; i++) {
-        const filePath = path.join(directoryPath, files[i]);
-
-        // Add each file deletion promise to the array
-        promises.push(
-          deleteFile(filePath)
-            .then((result) => {
-              console.log(result); // Log each successful deletion
-            })
-            .catch((err) => {
-              throw new Error("Error deleting file " + files[i] + ": " + err);
-            })
-        );
-      }
+      // Create an array of promises for each file deletion
+      let promises = files.map((file) => {
+        const filePath = path.join(directoryPath, file);
+        return deleteFile(filePath)
+          .then((result) => {
+            console.log(result); // Log each successful deletion
+          })
+          .catch((err) => {
+            console.error("Error deleting file: ", err);
+          });
+      });
 
       // Once all deletion promises are done, resolve the main promise
       Promise.all(promises)
@@ -110,13 +103,10 @@ createDirectory(directoryPath)
   })
   .then((deletionResults) => {
     // Log the results of file deletion
-    if (Array.isArray(deletionResults)) {
-      deletionResults.forEach((result) => console.log(result)); // Log each deletion result
-    } else {
-      console.log(deletionResults); // Log the final message (e.g., "All files deleted.")
-    }
+    console.log(deletionResults); // Log final message (e.g., "All files deleted.")
   })
   .catch((err) => {
     // Handle any errors that occur during the process
     console.error(err);
   });
+
