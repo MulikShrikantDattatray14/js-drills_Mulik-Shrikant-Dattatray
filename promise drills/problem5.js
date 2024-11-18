@@ -37,7 +37,7 @@ function problem5a(delay, value) {
   return new Promise((resolve, reject) => {
     console.log("Program in progress...");  // Log when promise is pending
     setTimeout(() => {
-      resolve(value); // Resolving with the passed value after `delay` time
+      resolve(value); // Resolving with the passed value after delay time
     }, delay);
   });
 }
@@ -45,7 +45,7 @@ function problem5a(delay, value) {
 function problem5b(delay, value) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(value); // Resolving with the passed value after `delay` time
+      resolve(value); // Resolving with the passed value after delay time
     }, delay);
   });
 }
@@ -56,7 +56,7 @@ console.log('Initial promise pending...');
 // Step 2: Create the initial promise (resolves in 5 seconds with a specific value)
 const myPromise = problem5a(5000, { data: "Hello, friend!", error: null });
 console.log(myPromise)
-// **First Promise Chain:**
+//First Promise Chain:
 myPromise
   .then((data) => {
     // Step 5: Log resolved value from the first promise
@@ -71,7 +71,7 @@ myPromise
     console.log("Error in first chain:", err);
   });
 
-// **Second Promise Chain:**
+// Second Promise Chain:
 myPromise
   .then((data) => {
     // Step 8: Log resolved value from the first promise again (in second chain)

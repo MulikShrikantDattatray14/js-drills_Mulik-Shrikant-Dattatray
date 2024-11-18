@@ -32,7 +32,7 @@ function problem2(input) {
   });
 }
 
-let input = true; // Set to `false` to test the resolve scenario
+let input = true; // Set to false to test the resolve scenario
 let promise = problem2(input);
 
 // Log the promise object itself while it is pending
