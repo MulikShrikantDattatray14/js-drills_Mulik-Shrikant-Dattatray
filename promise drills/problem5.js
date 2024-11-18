@@ -85,3 +85,21 @@ myPromise
   .catch((err) => {
     console.log("Error in second chain:", err);
   });
+
+
+
+  /*
+
+BONUS: WHY does it work this way?
+
+  It works this way because JavaScript uses Promises to handle tasks that take time (like waiting 5 seconds).
+
+1. Initial Promise: The myPromise resolves after 5 seconds with a value, but the program doesn't wait for it— it keeps running.
+
+2. Chaining Promises: After myPromise resolves, the .then() chains handle the next actions. Each .then() waits for the previous promise to finish before running.
+
+3. Asynchronous: Promises run in the background, so the program doesn’t stop while waiting. The console.log() statements show results as each promise resolves.
+
+This lets the code run smoothly without blocking, even with delays.
+
+*/
