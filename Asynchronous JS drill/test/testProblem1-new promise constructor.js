@@ -43,7 +43,7 @@ function deleteFile(filePath) {
   });
 }
 
-// Function to delete all files in a directory sequentially using new Promise constructor and a for loop
+// Function to delete all files in a directory sequentially using new Promise constructor 
 function deleteAllFilesInDirectory(directoryPath) {
   return new Promise((resolve, reject) => {
     fs.readdir(directoryPath, (err, files) => {
