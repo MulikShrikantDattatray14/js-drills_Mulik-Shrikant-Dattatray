@@ -53,7 +53,7 @@ function problem5b(delay, value) {
 // Step 3: Log out promise while it's pending
 console.log('Initial promise pending...');
 
-// Step 2: Create the initial promise (resolves in 5 seconds with a specific value)
+// Step 2: Create the initial promise (resolves in 5 seconds )
 const myPromise = problem5a(5000, { data: "Hello, friend!", error: null });
 console.log(myPromise)
 //First Promise Chain:
