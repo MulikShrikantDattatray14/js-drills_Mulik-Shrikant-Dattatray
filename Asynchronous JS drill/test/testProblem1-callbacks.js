@@ -5,14 +5,23 @@
         1. Create a directory of random JSON files
         2. Delete those files simultaneously 
 */
+//note:
+/*
+The recursive: true option in fs.mkdir tells Node.js to create all the necessary parent directories if they don't already exist.
 
+For example, if you want to create a folder structure like a/b/c, and the folders a and b don't exist yet, using recursive: true will automatically create both a and b before creating c. Without this option, Node.js would throw an error if any of the parent folders are missing.
+
+So, it's used to avoid errors and make sure all directories in the path are created automatically.
+*/
 // without promises - only callbacks
 
 const fs = require("fs");
 const path = require("path");
 
+
+
 // Function to create a directory if it doesn't exist
-function createDirectory(directoryPath, callback) {//The recursive: true option in fs.mkdir() ensures that all missing parent directories are created automatically. Without it, you would need to manually check and create each directory in the path.
+function createDirectory(directoryPath, callback) {
   fs.mkdir(directoryPath, { recursive: true }, callback);
 }
 
