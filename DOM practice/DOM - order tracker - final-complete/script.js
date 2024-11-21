@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       result.textContent = "Add contact details for further communications";
       // Set button text content
       decrementButton.textContent = "Previous";
-
+    incrementButton.textContent="Next"
       // Disable the button
       decrementButton.disabled = true;
 
@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+       incrementButton.textContent="Next"
     } else if (counter == 3) {
       circle1done = true;
       circle2done = true;
@@ -123,6 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+       incrementButton.textContent="Next"
     } else if (counter == 4) {
       circle1done = true;
       circle2done = true;
@@ -166,6 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+      // incrementButton.textContent="Next"
     } else if (counter == 5) {
       circle1done = true;
       circle2done = true;
@@ -247,6 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(5px)";
+       incrementButton.textContent="Next"
     } else if (counter == 2) {
       circle1done = false;
       circle2done = true;
@@ -275,6 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+       incrementButton.textContent="Next"
     } else if (counter == 3) {
       circle1done = false;
       circle2done = false;
@@ -304,6 +309,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+       incrementButton.textContent="Next"
     }
   });
 });

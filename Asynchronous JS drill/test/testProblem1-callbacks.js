@@ -26,8 +26,8 @@ A Promise can be in one of the following states:
 
 
 */
-const fs = require("fs");
-const path = require("path");
+const fs = require("fs"); 
+ const path = require("path");
 
 // Function to create a directory if it doesn't exist
 function createDirectory(directoryPath, callback) {
