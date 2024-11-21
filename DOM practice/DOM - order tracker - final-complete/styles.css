@@ -10,9 +10,9 @@
     display: flex;
     flex-direction: row;
     gap: 0px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-bottom: 20px;
   }
   .tracker-label{
     display: flex;
@@ -23,16 +23,18 @@
   }
 
   .circle {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 2px solid black;
     border-radius: 50%;
     font-size: 35px;
+    margin-bottom: 5px;
   }
   .pipe {
-    width: 560px;
+    width: 1600px;
     height: 5px;
     border: 2px solid black;
+    margin-top: 20px;
   }
   .buttons {
     display: flex;
