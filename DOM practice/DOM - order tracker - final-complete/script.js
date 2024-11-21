@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       result.textContent = "Add contact details for further communications";
       // Set button text content
       decrementButton.textContent = "Previous";
-    incrementButton.textContent="Next"
+      incrementButton.textContent = "Next";
       // Disable the button
       decrementButton.disabled = true;
 
@@ -56,12 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-     
-      imgElement.src = "checked.png"; 
+      imgElement.src = "checked.png";
 
-     
-      imgElement.alt = "Circle Image"; 
-      imgElement.style.width = "50px"; 
+      imgElement.alt = "Circle Image";
+      imgElement.style.width = "50px";
       imgElement.style.height = "50px";
 
       circel1Active.innerHTML = ""; // Clear previous content if needed
@@ -84,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
-       incrementButton.textContent="Next"
+      incrementButton.textContent = "Next";
     } else if (counter == 3) {
       circle1done = true;
       circle2done = true;
@@ -94,11 +92,10 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      imgElement.src = "checked.png"; 
+      imgElement.src = "checked.png";
 
-     
-      imgElement.alt = "Circle Image"; 
-      imgElement.style.width = "50px"; 
+      imgElement.alt = "Circle Image";
+      imgElement.style.width = "50px";
       imgElement.style.height = "50px";
       circel2Active.innerHTML = ""; // Clear previous content if needed
       circel2Active.appendChild(imgElement); // Add the image element
@@ -122,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
-       incrementButton.textContent="Next"
+      incrementButton.textContent = "Next";
     } else if (counter == 4) {
       circle1done = true;
       circle2done = true;
@@ -132,11 +129,10 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      imgElement.src = "checked.png"; 
+      imgElement.src = "checked.png";
 
-     
-      imgElement.alt = "Circle Image"; 
-      imgElement.style.width = "50px"; 
+      imgElement.alt = "Circle Image";
+      imgElement.style.width = "50px";
       imgElement.style.height = "50px";
 
       circel3Active.innerHTML = ""; // Clear previous content if needed
@@ -154,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
       pipe3active.classList.add("done");
       circel3Active.classList.add("done");
 
-     // counterElement.textContent = "Ready to get Delivered !";
+      // counterElement.textContent = "Ready to get Delivered !";
       result.textContent = "Ready to get Delivered !";
       incrementButton.textContent = "Finish";
       // Set button text content
@@ -175,11 +171,10 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      imgElement.src = "checked.png"; 
+      imgElement.src = "checked.png";
 
-     
-      imgElement.alt = "Circle Image"; 
-      imgElement.style.width = "50px"; 
+      imgElement.alt = "Circle Image";
+      imgElement.style.width = "50px";
       imgElement.style.height = "50px";
       circel4Active.innerHTML = ""; // Clear previous content if needed
       circel4Active.appendChild(imgElement); // Add the image element
@@ -215,9 +210,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (counter >= 2 && counter <= 5) {
       counter--;
       //counterElement.textContent = counter;
-    } else if (counter == 1) {
-      //counterElement.textContent = 1;
-    }
+    } 
     if (counter == 1) {
       circle1done = true;
       circle2done = false;
@@ -245,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(5px)";
-       incrementButton.textContent="Next"
+      incrementButton.textContent = "Next";
     } else if (counter == 2) {
       circle1done = false;
       circle2done = true;
@@ -274,7 +267,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
-       incrementButton.textContent="Next"
+      incrementButton.textContent = "Next";
     } else if (counter == 3) {
       circle1done = false;
       circle2done = false;
@@ -304,7 +297,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
-       incrementButton.textContent="Next"
+      incrementButton.textContent = "Next";
     }
   });
 });
