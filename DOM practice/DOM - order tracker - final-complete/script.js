@@ -56,13 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      // Set the src attribute to the desired image URL
-      imgElement.src = "checked.png"; // Replace with the actual image URL
+     
+      imgElement.src = "checked.png"; 
 
-      // Optionally, you can set other attributes like alt, width, height, etc.
-      imgElement.alt = "Circle Image"; // Add alt text
-      imgElement.style.width = "40px"; // Example of setting the image width
-      imgElement.style.height = "40px"; // Example of setting the image height
+     
+      imgElement.alt = "Circle Image"; 
+      imgElement.style.width = "50px"; 
+      imgElement.style.height = "50px";
 
       circel1Active.innerHTML = ""; // Clear previous content if needed
       circel1Active.appendChild(imgElement); // Add the image element
@@ -94,14 +94,12 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      // Set the src attribute to the desired image URL
-      imgElement.src = "checked.png"; // Replace with the actual image URL
+      imgElement.src = "checked.png"; 
 
-      // Optionally, you can set other attributes like alt, width, height, etc.
-      imgElement.alt = "Circle Image"; // Add alt text
-      imgElement.style.width = "40px"; // Example of setting the image width
-      imgElement.style.height = "40px"; // Example of setting the image height
-
+     
+      imgElement.alt = "Circle Image"; 
+      imgElement.style.width = "50px"; 
+      imgElement.style.height = "50px";
       circel2Active.innerHTML = ""; // Clear previous content if needed
       circel2Active.appendChild(imgElement); // Add the image element
 
@@ -134,13 +132,12 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      // Set the src attribute to the desired image URL
-      imgElement.src = "checked.png"; // Replace with the actual image URL
+      imgElement.src = "checked.png"; 
 
-      // Optionally, you can set other attributes like alt, width, height, etc.
-      imgElement.alt = "Circle Image"; // Add alt text
-      imgElement.style.width = "40px"; // Example of setting the image width
-      imgElement.style.height = "40px"; // Example of setting the image height
+     
+      imgElement.alt = "Circle Image"; 
+      imgElement.style.width = "50px"; 
+      imgElement.style.height = "50px";
 
       circel3Active.innerHTML = ""; // Clear previous content if needed
       circel3Active.appendChild(imgElement); // Add the image element
@@ -178,14 +175,12 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create an img element
       let imgElement = document.createElement("img");
 
-      // Set the src attribute to the desired image URL
-      imgElement.src = "checked.png"; // Replace with the actual image URL
+      imgElement.src = "checked.png"; 
 
-      // Optionally, you can set other attributes like alt, width, height, etc.
-      imgElement.alt = "Circle Image"; // Add alt text
-      imgElement.style.width = "40px"; // Example of setting the image width
-      imgElement.style.height = "40px"; // Example of setting the image height
-
+     
+      imgElement.alt = "Circle Image"; 
+      imgElement.style.width = "50px"; 
+      imgElement.style.height = "50px";
       circel4Active.innerHTML = ""; // Clear previous content if needed
       circel4Active.appendChild(imgElement); // Add the image element
 
