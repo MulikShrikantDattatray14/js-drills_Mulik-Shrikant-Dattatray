@@ -75,7 +75,7 @@ function deleteAllFilesInDirectory(directoryPath) {
     });
   });
 }
-
+// __dirname : global variable that represents the absolute path of the directory containing the currently executing script file. 
 // Main function to create and then delete JSON files
 const directoryPath = path.join(__dirname, "random_json_files");
 const numberOfFiles = 5;

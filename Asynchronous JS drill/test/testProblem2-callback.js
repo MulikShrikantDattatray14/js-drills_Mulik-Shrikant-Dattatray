@@ -9,7 +9,6 @@
         5. Read the contents of filenames.txt and delete all the new files that are mentioned in that list simultaneously.
 */
 
-
 // without use of promises - asycn/await
 
 const fs = require("fs");

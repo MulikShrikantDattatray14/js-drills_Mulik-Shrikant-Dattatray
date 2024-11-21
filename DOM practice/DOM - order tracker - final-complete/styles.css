@@ -1,0 +1,62 @@
+
+  button {
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .tracker {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .tracker-label{
+    display: flex;
+    flex-direction: row;
+    gap: 450px;
+    margin-bottom: 100px;
+    font-weight: 600;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 35px;
+  }
+  .pipe {
+    width: 560px;
+    height: 5px;
+    border: 2px solid black;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+  }
+  #results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size:30px
+    
+  }
+  .maincontainer {
+   margin: 50x;
+   padding: 70px;
+  }
+  .active{
+    background-color: blue;
+    color: white;
+  }
+  .done{
+    background-color:rgb(7, 205, 113)
+  }

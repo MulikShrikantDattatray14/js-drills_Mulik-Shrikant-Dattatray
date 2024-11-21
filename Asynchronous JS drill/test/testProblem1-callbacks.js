@@ -14,11 +14,20 @@ For example, if you want to create a folder structure like a/b/c, and the folder
 So, it's used to avoid errors and make sure all directories in the path are created automatically.
 */
 // without promises - only callbacks
+/*
+A Promise in JavaScript is an object that represents the eventual completion or failure of an asynchronous operation. It allows you to attach callbacks to handle the result once the operation finishes.
 
+A Promise can be in one of the following states:
+
+1. Pending: The initial state, where the operation is still in progress and the promise has not yet been resolved or rejected.
+2. Resolved (Fulfilled): The operation completed successfully, and the promise has a result value.
+3. Rejected: The operation failed, and the promise has a reason (error) for the failure.
+
+
+
+*/
 const fs = require("fs");
 const path = require("path");
-
-
 
 // Function to create a directory if it doesn't exist
 function createDirectory(directoryPath, callback) {
@@ -73,7 +82,6 @@ function deleteAllFilesInDirectory(directoryPath, callback) {
   });
 }
 
-// Main function
 const directoryPath = path.join(__dirname, "random_json_files");
 const numberOfFiles = 5;
 
