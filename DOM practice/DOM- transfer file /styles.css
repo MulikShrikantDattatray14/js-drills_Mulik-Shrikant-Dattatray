@@ -1,0 +1,83 @@
+.line {
+  width: 100%;
+  height: 0px;
+  border: 1px solid black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-bottom: 50px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 45px;
+}
+/* Parent container to hold both flex containers side by side */
+.parent-container {
+  display: flex;
+  gap: 20px; /* Space between the two containers */
+  margin-top: 30px;
+}
+
+/* Each child container (flex container) */
+#leftcontainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 10px; /* Space between items */
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1; /* Allow both containers to grow equally */
+}
+/* Each child container (flex container) */
+#rightcontainer {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 10px; /* Space between items */
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1; /* Allow both containers to grow equally */
+}
+
+/* Flex items inside each container (fixed size) */
+.item {
+  display: flex;
+  align-items: center; /* Align checkbox and label */
+  height: 50px; /* Fixed height for items */
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: rgb(215, 212, 212);
+  text-align: left;
+}
+
+/* Style for the checkbox */
+.checkbox {
+  margin-right: 10px;
+}
+
+/* Gap container to hold buttons between the two flex containers */
+.gap-container {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 40px; /* Space between buttons */
+}
+
+/* Style for the buttons */
+.button {
+  padding: 10px 20px;
+  background-color: rgb(215, 212, 212);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+/* .button:hover {
+  background-color: white;
+
+  border:2px solid black;
+} */
