@@ -21,6 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let circle2done = false;
   let circle3done = false;
   let circel4done = false;
+  decrementButton.disabled = true;
+
+  // Apply blur effect to the button
+  decrementButton.style.filter = "blur(0px)";
   // Increment counter
   incrementButton.addEventListener("click", function () {
     if (counter >= 1 && counter <= 5) {
