@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
-      decrementButton.style.cursor = "pointer";
+     decrementButton.style.cursor="not-allowed"
     } else if (counter == 2) {
       circle1done = false;
       circle2done = true;
