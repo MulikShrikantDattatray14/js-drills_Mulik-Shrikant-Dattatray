@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       decrementButton.disabled = true;
 
       // Apply blur effect to the button
-      decrementButton.style.filter = "blur(5px)";
+      decrementButton.style.filter = "blur(0px)";
     } else if (counter == 2) {
       circle1done = true;
       circle2done = true;
@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
       decrementButton.disabled = true;
 
       // Apply blur effect to the button
-      decrementButton.style.filter = "blur(5px)";
+      decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
     } else if (counter == 2) {
       circle1done = false;
