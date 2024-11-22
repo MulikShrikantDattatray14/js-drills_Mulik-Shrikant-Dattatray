@@ -88,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+      decrementButton.style.cursor = "pointer";
+
       incrementButton.textContent = "Next";
     } else if (counter == 3) {
       circle1done = true;
@@ -125,6 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
+      decrementButton.style.cursor = "pointer";
       incrementButton.textContent = "Next";
     } else if (counter == 4) {
       circle1done = true;
@@ -168,6 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       // incrementButton.textContent="Next"
+      decrementButton.style.cursor = "pointer";
     } else if (counter == 5) {
       circle1done = true;
       circle2done = true;
@@ -205,6 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
       decrementButton.remove();
       incrementButton.textContent = "Refresh";
       // Apply blur effect to the button
+      decrementButton.style.cursor = "pointer";
     } else if (counter == 6) {
       // Hard reload the page (without cache)
       window.location.reload(true);
@@ -245,6 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
+      decrementButton.style.cursor = "pointer";
     } else if (counter == 2) {
       circle1done = false;
       circle2done = true;
@@ -274,6 +280,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
+      decrementButton.style.cursor = "pointer";
     } else if (counter == 3) {
       circle1done = false;
       circle2done = false;
@@ -304,6 +311,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
+      decrementButton.style.cursor = "pointer";
     }
   });
 });
