@@ -245,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
       decrementButton.textContent = "Previous";
 
       // Disable the button
-      decrementButton.disabled = true;
+      decrementButton.disabled = false;
 
       // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
