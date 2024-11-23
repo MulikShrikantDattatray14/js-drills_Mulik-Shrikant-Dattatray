@@ -68,6 +68,8 @@ document.addEventListener("DOMContentLoaded", function () {
     allInRightContainer.forEach((item) => {
       rightcontainer.appendChild(item);
     });
+     entireLeftButton.style.opacity="0.5";
+     entireRightButton.style.opacity="1"
   });
 
   entireRightButton.addEventListener("click", function () {
@@ -101,6 +103,9 @@ document.addEventListener("DOMContentLoaded", function () {
     allInRightContainer.forEach((item) => {
       rightcontainer.appendChild(item);
     });
+   
+     entireRightButton.style.opacity="0.5"
+     entireLeftButton.style.opacity="1"
   });
 
   // 2.SHIFTING ITEMS ONE BY ONE ON ENTIRE SIDES
