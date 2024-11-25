@@ -24,14 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
   let circel4done = false;
   decrementButton.disabled = true;
 
-  // Apply blur effect to the button
+ 
   decrementButton.style.filter = "blur(0px)";
   decrementButton.style.cursor="not-allowed"
   // Increment counter
   incrementButton.addEventListener("click", function () {
     if (counter >= 1 && counter <= 5) {
       counter++;
-      //counterElement.textContent = counter;
+      
       console.log(counter);
     }
     if (counter == 1) {
@@ -45,13 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
       circel3Active.classList.remove("active");
       circel4Active.classList.remove("active");
       result.textContent = "Add contact details for further communications";
-      // Set button text content
+      
       decrementButton.textContent = "Previous";
       incrementButton.textContent = "Next";
-      // Disable the button
+     
       decrementButton.disabled = true;
 
-      // Apply blur effect to the button
+    
       decrementButton.style.filter = "blur(0px)";
        decrementButton.style.cursor="not-allowed"
     } else if (counter == 2) {
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       circle3done = false;
       circel4done = false;
 
-      // Create an img element
+      
       let imgElement = document.createElement("img");
 
       imgElement.src = "checked.png";
@@ -69,8 +69,8 @@ document.addEventListener("DOMContentLoaded", function () {
       imgElement.style.width = "50px";
       imgElement.style.height = "50px";
 
-      circel1Active.innerHTML = ""; // Clear previous content if needed
-      circel1Active.appendChild(imgElement); // Add the image element
+      circel1Active.innerHTML = ""; 
+      circel1Active.appendChild(imgElement); 
 
       circel2Active.classList.add("active");
       circel1Active.classList.remove("active");
@@ -81,13 +81,13 @@ document.addEventListener("DOMContentLoaded", function () {
       pipe1active.classList.add("done");
       circel1Active.classList.add("done");
       result.textContent = "Add shipping address for successful Delivery";
-      // Set button text content
+    
       decrementButton.textContent = "Previous";
 
-      // Disable the button
+     
       decrementButton.disabled = false;
 
-      // Apply blur effect to the button
+     
       decrementButton.style.filter = "blur(0px)";
       decrementButton.style.cursor = "pointer";
 
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
       circle3done = true;
       circel4done = false;
 
-      // Create an img element
+    
       let imgElement = document.createElement("img");
 
       imgElement.src = "checked.png";
@@ -106,8 +106,8 @@ document.addEventListener("DOMContentLoaded", function () {
       imgElement.alt = "Circle Image";
       imgElement.style.width = "50px";
       imgElement.style.height = "50px";
-      circel2Active.innerHTML = ""; // Clear previous content if needed
-      circel2Active.appendChild(imgElement); // Add the image element
+      circel2Active.innerHTML = "";
+      circel2Active.appendChild(imgElement);
 
       circel3Active.classList.add("active");
       circel2Active.classList.remove("active");
@@ -120,13 +120,13 @@ document.addEventListener("DOMContentLoaded", function () {
       pipe2active.classList.add("done");
       circel2Active.classList.add("done");
       result.textContent = "Complete payment to complete the Order";
-      // Set button text content
+    
       decrementButton.textContent = "Previous";
 
-      // Disable the button
+      
       decrementButton.disabled = false;
 
-      // Apply blur effect to the button
+      
       decrementButton.style.filter = "blur(0px)";
       decrementButton.style.cursor = "pointer";
       incrementButton.textContent = "Next";
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
       circle3done = true;
       circel4done = true;
 
-      // Create an img element
+     
       let imgElement = document.createElement("img");
 
       imgElement.src = "checked.png";
@@ -145,8 +145,8 @@ document.addEventListener("DOMContentLoaded", function () {
       imgElement.style.width = "50px";
       imgElement.style.height = "50px";
 
-      circel3Active.innerHTML = ""; // Clear previous content if needed
-      circel3Active.appendChild(imgElement); // Add the image element
+      circel3Active.innerHTML = ""; 
+      circel3Active.appendChild(imgElement);
 
       circel4Active.classList.add("active");
       circel3Active.classList.remove("active");
@@ -160,18 +160,18 @@ document.addEventListener("DOMContentLoaded", function () {
       pipe3active.classList.add("done");
       circel3Active.classList.add("done");
 
-      // counterElement.textContent = "Ready to get Delivered !";
+      
       result.textContent = "Ready to get Delivered !";
       incrementButton.textContent = "Finish";
-      // Set button text content
+     
       decrementButton.textContent = "Previous";
 
-      // Disable the button
+     
       decrementButton.disabled = false;
 
-      // Apply blur effect to the button
+      
       decrementButton.style.filter = "blur(0px)";
-      // incrementButton.textContent="Next"
+      
       decrementButton.style.cursor = "pointer";
     } else if (counter == 5) {
       circle1done = true;
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
       circle3done = true;
       circel4done = true;
 
-      // Create an img element
+     
       let imgElement = document.createElement("img");
 
       imgElement.src = "checked.png";
@@ -187,9 +187,8 @@ document.addEventListener("DOMContentLoaded", function () {
       imgElement.alt = "Circle Image";
       imgElement.style.width = "50px";
       imgElement.style.height = "50px";
-      circel4Active.innerHTML = ""; // Clear previous content if needed
-      circel4Active.appendChild(imgElement); // Add the image element
-
+      circel4Active.innerHTML = ""; 
+      circel4Active.appendChild(imgElement); 
       circel4Active.classList.add("active");
       circel3Active.classList.remove("active");
       circel2Active.classList.remove("active");
@@ -203,16 +202,16 @@ document.addEventListener("DOMContentLoaded", function () {
       circel3Active.classList.add("done");
       circel4Active.classList.add("done");
 
-      // counterElement.textContent = "Ready to get Delivered !";
+    
       result.textContent = "Order Delivered Succesfully🎉🎉🎉";
 
-      // Set button text content
+     
       decrementButton.remove();
       incrementButton.textContent = "Refresh";
-      // Apply blur effect to the button
+      
       decrementButton.style.cursor = "pointer";
     } else if (counter == 6) {
-      // Hard reload the page (without cache)
+     
       window.location.reload(true);
     }
   });
@@ -221,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
   decrementButton.addEventListener("click", function () {
     if (counter >= 2 && counter <= 5) {
       counter--;
-      //counterElement.textContent = counter;
+      
     } 
     if (counter == 1) {
       circle1done = true;
@@ -239,16 +238,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       divElement.textContent = 1;
 
-      circel1Active.innerHTML = ""; // Clear previous content if needed
-      circel1Active.appendChild(divElement); // Add the div element
+      circel1Active.innerHTML = "";
+      circel1Active.appendChild(divElement); 
       result.textContent = "Add contact details for further communications";
-      // Set button text content
+      
       decrementButton.textContent = "Previous";
 
-      // Disable the button
       decrementButton.disabled = false;
-
-      // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
      decrementButton.style.cursor="not-allowed"
@@ -269,16 +265,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       divElement.textContent = 2;
 
-      circel2Active.innerHTML = ""; // Clear previous content if needed
-      circel2Active.appendChild(divElement); // Add the div element
+      circel2Active.innerHTML = "";
+      circel2Active.appendChild(divElement); 
       result.textContent = "Add shipping address for successful Delivery";
-      // Set button text content
+     
       decrementButton.textContent = "Previous";
-
-      // Disable the button
       decrementButton.disabled = false;
 
-      // Apply blur effect to the button
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
       decrementButton.style.cursor = "pointer";
@@ -295,21 +288,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
       pipe3active.classList.remove("done");
       circel3Active.classList.remove("done");
-      // Create an div element
+     
       let divElement = document.createElement("div");
 
       divElement.textContent = 3;
 
-      circel3Active.innerHTML = ""; // Clear previous content if needed
-      circel3Active.appendChild(divElement); // Add the div element
+      circel3Active.innerHTML = "";
+      circel3Active.appendChild(divElement); 
       result.textContent = "Complete payment to complete the Order";
-      // Set button text content
+     
       decrementButton.textContent = "Previous";
 
-      // Disable the button
+     
       decrementButton.disabled = false;
 
-      // Apply blur effect to the button
+     
       decrementButton.style.filter = "blur(0px)";
       incrementButton.textContent = "Next";
       decrementButton.style.cursor = "pointer";
