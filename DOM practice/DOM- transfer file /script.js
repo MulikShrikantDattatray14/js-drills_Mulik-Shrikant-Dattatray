@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", function () {
   let allInRightContainer = [];
 
   entireLeftButton.addEventListener("click", function () {
-    // Clear right container array
+    
     allInRightContainer = [];
 
-    // Add all items to the left container array
+    
     allInLeftContainer = [
       reactitem,
       vueitem,
@@ -55,16 +55,16 @@ document.addEventListener("DOMContentLoaded", function () {
       nodejsitem,
     ];
 
-    // Clear the containers
+    
     leftcontainer.innerHTML = "";
     rightcontainer.innerHTML = "";
 
-    // Add the elements from allInLeftContainer to leftcontainer
+    
     allInLeftContainer.forEach((item) => {
       leftcontainer.appendChild(item);
     });
 
-    // Add the elements from allInRightContainer to rightcontainer
+   
     allInRightContainer.forEach((item) => {
       rightcontainer.appendChild(item);
     });
@@ -73,10 +73,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   entireRightButton.addEventListener("click", function () {
-    // Clear left container array
+   
     allInLeftContainer = [];
 
-    // Add all items to the right container array
+   
     allInRightContainer = [
       reactitem,
       vueitem,
@@ -90,16 +90,16 @@ document.addEventListener("DOMContentLoaded", function () {
       nodejsitem,
     ];
 
-    // Clear the containers again
+    
     leftcontainer.innerHTML = "";
     rightcontainer.innerHTML = "";
 
-    // Add the elements from allInLeftContainer to leftcontainer
+    
     allInLeftContainer.forEach((item) => {
       leftcontainer.appendChild(item);
     });
 
-    // Add the elements from allInRightContainer to rightcontainer
+   
     allInRightContainer.forEach((item) => {
       rightcontainer.appendChild(item);
     });
@@ -117,12 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
     selectedFromLeft.push(left);
     selectedFromRight.push(right);
 
-    // if (selectedFromLeft.length !== 0) {
-    //   singleLeftButton.style.opacity = "1";
-    // }
-    // if (selectedFromRight.length !== 0) {
-    //   singleRightButton.style.opacity = "1";
-    // }
+   
 
     // Move selected items from left to right when the "single-right" button is clicked
     document
