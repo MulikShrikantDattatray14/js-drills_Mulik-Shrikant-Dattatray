@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  //DOMContentLoaded is an event in JavaScript that triggers when the HTML document has been completely loaded and parsed( browser reads and understands the HTML code to create a structure it can display and work with.), without waiting for stylesheets, images, and subframes to finish loading.
   let counter = 1;
 
   const counterElement = document.getElementById("counter");
