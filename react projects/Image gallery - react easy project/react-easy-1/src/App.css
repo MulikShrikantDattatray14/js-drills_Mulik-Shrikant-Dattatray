@@ -1,0 +1,32 @@
+.imagelist img {
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.imagelist img:hover {
+  transform: scale(1.2);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+  border: 3px solid black;
+}
+
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  background-color: white;
+  margin: auto;
+  margin-left: 30vw;
+  border: 0.5px solid black;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
