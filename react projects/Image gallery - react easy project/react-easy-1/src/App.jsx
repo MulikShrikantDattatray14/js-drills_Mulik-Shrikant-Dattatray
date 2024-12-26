@@ -12,8 +12,7 @@ let images = [html, js, react, nodejs];
 function Imagelist({ onImageClick }) {
   return (
     <div className="imagelist">
-      {" "}
-      {/* Add className here */}
+      
       {images.map((each, index) => {
         return (
           <img
