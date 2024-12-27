@@ -8,7 +8,7 @@ const SearchFilter = ({ searchQuery, setSearchQuery }) => {
       <input
         type="text"
         placeholder="Search..."
-        className="  bg-transparent outline-none text -sd text-black-800 w-full px-2"
+        className="  bg-transparent outline-none text -sd text-black-800 w-full px-2 placeholder-gray-900"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
