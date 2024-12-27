@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from "react";
 import { useDarkMode } from "./context";
-// Search Filter Component
+
 const SearchFilter = ({ searchQuery, setSearchQuery }) => {
   const { isDarkMode } = useDarkMode();
   return (
@@ -16,7 +16,7 @@ const SearchFilter = ({ searchQuery, setSearchQuery }) => {
   );
 };
 
-// Region Filter Component
+
 const RegionFilter = ({ regions, selectedRegion, setSelectedRegion }) => {
   const { isDarkMode } = useDarkMode();
   const sortedRegions = useMemo(() => regions.sort(), [regions]);
@@ -41,7 +41,7 @@ const RegionFilter = ({ regions, selectedRegion, setSelectedRegion }) => {
   );
 };
 
-// Subregion Filter Component
+
 const SubregionFilter = ({
   selectedRegion,
   subregions,
@@ -71,7 +71,7 @@ const SubregionFilter = ({
   );
 };
 
-// Language Filter Component
+
 const LanguageFilter = ({
   languages,
   selectedLanguage,
@@ -99,7 +99,7 @@ const LanguageFilter = ({
   );
 };
 
-// Sort Filter Component
+
 const SortFilter = ({ sortBy, setSortBy }) => {
   const sortOptions = [
     "population-asc",
@@ -132,7 +132,6 @@ const SortFilter = ({ sortBy, setSortBy }) => {
   );
 };
 
-// Parent Filter Page Component
 const FilterComponent = ({ countries, setFilteredCountries }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState("");

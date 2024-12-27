@@ -200,15 +200,7 @@ function CountryDetail({ countries }) {
           : "bg-white text-black p-12 space-y-8"
       }
     >
-      {/* <ToggleSection /> */}
-
-      {/* <div className="flex items-center justify-between ">
-        <BackButton navigate={navigate} />
-        <h1 className="text-5xl font-bold text-center w-full">
-          {country.name?.common}
-        </h1>
-        <Toggle/>
-      </div> */}
+      
       <div className="flex items-center justify-between w-full sm:flex-row flex-col">
         <div className="flex sm:flex-row flex-col items-center justify-between w-full">
           <BackButton navigate={navigate} />

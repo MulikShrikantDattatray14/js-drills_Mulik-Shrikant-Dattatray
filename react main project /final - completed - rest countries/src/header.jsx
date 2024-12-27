@@ -1,4 +1,4 @@
-// App.jsx
+
 import React from "react";
 import Toggle from "./toggle";
 import { useDarkMode } from "./context";
