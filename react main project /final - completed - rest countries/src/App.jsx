@@ -51,6 +51,7 @@ const App = () => {
         const data = await response.json();
         setCountries(data);
         setFilteredCountries(data);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching countries:", error);
       } finally {
