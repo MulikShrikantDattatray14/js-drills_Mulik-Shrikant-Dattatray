@@ -8,7 +8,6 @@ import FilterComponent from "./filter";
 import Result from "./result";
 import { useDarkMode } from "./context";
 
-
 const ToggleSection = () => {
   return <ToggleComponent />;
 };
@@ -38,6 +37,30 @@ const CountryListSection = ({ filteredCountries, loading }) => {
   );
 };
 
+const HomePage = ({ countries, filteredCountries, setFilteredCountries,loading }) => {
+  const { isDarkMode } = useDarkMode();
+  return (
+    <div
+      className={
+        isDarkMode ? "bg-gray-800 text-white " : "bg-white text-black "
+      }
+    >
+      <Header />
+
+      <FilterSection
+        countries={countries}
+        setFilteredCountries={setFilteredCountries}
+      />
+
+      <ResultSection filteredCountries={filteredCountries} />
+
+      <CountryListSection
+        filteredCountries={filteredCountries}
+        loading={loading}
+      />
+    </div>
+  );
+};
 const App = () => {
   const { isDarkMode } = useDarkMode();
   const [countries, setCountries] = useState([]);
@@ -68,21 +91,12 @@ const App = () => {
         <Route
           path="/"
           element={
-            <div className={isDarkMode ? 'bg-gray-800 text-white ' : 'bg-white text-black '}>
-             <Header/>
-
-              <FilterSection
-                countries={countries}
-                setFilteredCountries={setFilteredCountries}
-              />
-
-              <ResultSection filteredCountries={filteredCountries} />
-
-              <CountryListSection
-                filteredCountries={filteredCountries}
-                loading={loading}
-              />
-            </div>
+            <HomePage
+              countries={countries}
+              filteredCountries={filteredCountries}
+              loading={loading}
+              setFilteredCountries={setFilteredCountries}
+            />
           }
         />
         <Route
@@ -95,7 +109,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-
