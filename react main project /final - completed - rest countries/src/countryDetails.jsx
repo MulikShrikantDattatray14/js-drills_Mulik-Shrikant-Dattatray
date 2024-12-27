@@ -79,7 +79,7 @@ const CountryDetails = ({ country, isDarkMode }) => {
               : "bg-white text-black text-md"
           }
         >
-          <strong>Capital : </strong> {country.capital?.[0]}
+          <strong>Capital : </strong> {country.capital}
         </p>
         <p
           className={
@@ -88,7 +88,7 @@ const CountryDetails = ({ country, isDarkMode }) => {
               : "bg-white text-black text-md"
           }
         >
-          <strong>Languages : </strong>{" "}
+          <strong>Languages : </strong>
           {Object.values(country.languages || {}).join(", ")}
         </p>
 

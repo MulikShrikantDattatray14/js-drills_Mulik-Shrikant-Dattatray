@@ -51,7 +51,7 @@ const CountryCard = ({ country }) => {
           }
         >
           <strong>Capital : </strong>
-          {country.capital?.[0]}
+          {country.capital}
         </p>
         <p
           className={
