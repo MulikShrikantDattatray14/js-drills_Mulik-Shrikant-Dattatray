@@ -10,8 +10,8 @@ const Header = () => {
       <div
         className={
           isDarkMode
-            ? "bg-gray-800 text-white flex justify-between items-center p-4  mx-2  my-2 mb-5 "
-            : "bg-white text-black flex justify-between items-center p-4  mx-2  my-2 mb-5 "
+            ? "bg-gray-800 text-white flex justify-between items-center p-4  mx-2 mb-5 "
+            : "bg-white text-black flex justify-between items-center p-4  mx-2 mb-5 "
         }
       >
         <h1

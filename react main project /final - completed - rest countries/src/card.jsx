@@ -98,7 +98,7 @@ const CountryCard = ({ country }) => {
 
 const CountryGrid = ({ countries }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12 px-4 my-5 border-solid border-black">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12 px-4  border-solid border-black">
       {countries.map((country) => (
         <CountryCard key={country.cca3} country={country} />
       ))}
