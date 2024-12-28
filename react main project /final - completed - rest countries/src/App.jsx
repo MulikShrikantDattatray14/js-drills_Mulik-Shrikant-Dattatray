@@ -8,9 +8,9 @@ import FilterComponent from "./filter";
 import Result from "./result";
 import { useDarkMode } from "./context";
 
-const ToggleSection = () => {
-  return <ToggleComponent />;
-};
+// const ToggleSection = () => {
+//   return <ToggleComponent />;
+// };
 
 const FilterSection = ({ countries, setFilteredCountries }) => {
   return (

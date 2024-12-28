@@ -7,14 +7,16 @@ import { useDarkMode } from "./context";
 //   return <ToggleComponent />;
 // };
 
-const BackButton = ({ navigate }) => (
-  <button
+const BackButton = ({ navigate }) => {
+  const { isDarkMode } = useDarkMode();
+  return (<button
     onClick={() => navigate("/")}
-    className="flex items-center text-white bg-blue-500 hover:bg-blue-700 px-6 py-3 rounded-lg"
+   
+    className={isDarkMode ? 'flex items-center text-white bg-blue-500 hover:bg-blue-700 px-6 py-3 rounded-lg border-2  border-solid border-white' : 'flex items-center text-white bg-blue-500 hover:bg-blue-700 px-6 py-3 rounded-lg border-2  border-solid border-black'}
   >
     <FaArrowLeft className="mr-2" /> Back
-  </button>
-);
+  </button>)
+};
 
 const CountryFlag = ({ flagUrl, countryName, country }) => {
   const { isDarkMode } = useDarkMode();
@@ -30,7 +32,7 @@ const CountryFlag = ({ flagUrl, countryName, country }) => {
         src={flagUrl}
         alt={`Flag of ${countryName}`}
         
-        className={isDarkMode ? 'w-[800px] h-[500px] object-cover rounded-lg border-4  border-solid border-white' : 'w-[800px] h-[500px] object-cover rounded-lg border-4  border-solid border-black'}
+        className={isDarkMode ? 'w-[800px] h-[500px] object-cover rounded-lg border-8  border-solid border-white' : 'w-[800px] h-[500px] object-cover rounded-lg border-8  border-solid border-black'}
       />
       <div className="flex flex-row gap-10 mt-12 mr-1">
         <p className="text-sm sm:text-md md:text-lg lg:text-xl text-gray-600">

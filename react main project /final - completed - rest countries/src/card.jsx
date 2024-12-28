@@ -13,8 +13,8 @@ const CountryCard = ({ country }) => {
       <div
         className={`${
           isDarkMode
-            ? "bg-gray-700 text-white p-4 rounded-lg shadow-lg flex flex-col items-center cursor-pointer "
-            : "bg-white text-black p-4 rounded-lg shadow-lg flex flex-col items-center cursor-pointer "
+            ? "bg-gray-700 text-white p-4 rounded-lg shadow-lg flex flex-col items-center cursor-pointer border-2  border-solid border-white"
+            : "bg-white text-black p-4 rounded-lg shadow-lg flex flex-col items-center cursor-pointer border-2  border-solid border-black"
         }`}
       >
         {/* <img

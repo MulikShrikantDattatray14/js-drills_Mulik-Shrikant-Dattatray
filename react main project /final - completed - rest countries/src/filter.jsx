@@ -4,7 +4,7 @@ import { useDarkMode } from "./context";
 const SearchFilter = ({ searchQuery, setSearchQuery }) => {
   const { isDarkMode } = useDarkMode();
   return (
-    <div className="  flex items-center bg-gray-100 p-2 rounded-lg w-full sm:w-1/4 mb-4 sm:mb-0">
+    <div className={isDarkMode ? ' flex items-center bg-gray-400 p-2 rounded-lg w-full sm:w-1/4 mb-4 sm:mb-0 border-2  border-solid border-white' : ' flex items-center bg-gray-100 p-2 rounded-lg w-full sm:w-1/4 mb-4 sm:mb-0 border-2  border-solid border-black'}>
       <input
         type="text"
         placeholder="Search..."
@@ -16,17 +16,16 @@ const SearchFilter = ({ searchQuery, setSearchQuery }) => {
   );
 };
 
-
 const RegionFilter = ({ regions, selectedRegion, setSelectedRegion }) => {
   const { isDarkMode } = useDarkMode();
   const sortedRegions = useMemo(() => regions.sort(), [regions]);
 
   return (
-    <div className="flex items-center mb-4 sm:mb-0">
+    <div className={isDarkMode ? 'flex items-center bg-gray-400 mb-4 sm:mb-0  border-2  border-solid border-white rounded-lg' : 'flex items-center bg-gray-100 mb-4 sm:mb-0  border-2  border-solid border-black rounded-lg'}>
       {/* <label htmlFor="region" className="text-sm mr-2">Region</label> */}
       <select
         id="region"
-        className="bg-gray-100 text-black p-2 rounded-lg"
+        className="bg-transparent outline-none text -sd text-black-800 w-full  rounded-lg p-2 rounded-lg"
         value={selectedRegion}
         onChange={(e) => setSelectedRegion(e.target.value)}
       >
@@ -41,7 +40,6 @@ const RegionFilter = ({ regions, selectedRegion, setSelectedRegion }) => {
   );
 };
 
-
 const SubregionFilter = ({
   selectedRegion,
   subregions,
@@ -51,11 +49,12 @@ const SubregionFilter = ({
   const sortedSubregions = useMemo(() => subregions.sort(), [subregions]);
   const { isDarkMode } = useDarkMode();
   return (
-    <div className="flex items-center mb-4 sm:mb-0">
+    <div className={isDarkMode ? 'flex items-center bg-gray-400 mb-4 sm:mb-0  border-2  border-solid border-white rounded-lg' : 'flex items-center bg-gray-100 mb-4 sm:mb-0  border-2  border-solid border-black rounded-lg'}>
+
       {/* <label htmlFor="subregion" className="text-sm mr-2">Subregion</label> */}
       <select
         id="subregion"
-        className="bg-gray-100 text-black p-2 rounded-lg"
+         className="bg-transparent outline-none text -sd text-black-800 w-full  rounded-lg p-2 rounded-lg"
         value={selectedSubregion}
         onChange={(e) => setSelectedSubregion(e.target.value)}
         disabled={!selectedRegion}
@@ -71,7 +70,6 @@ const SubregionFilter = ({
   );
 };
 
-
 const LanguageFilter = ({
   languages,
   selectedLanguage,
@@ -80,11 +78,12 @@ const LanguageFilter = ({
   const sortedLanguages = useMemo(() => languages.sort(), [languages]);
   const { isDarkMode } = useDarkMode();
   return (
-    <div className="flex items-center mb-4 sm:mb-0">
+    <div className={isDarkMode ? 'flex items-center bg-gray-400 mb-4 sm:mb-0  border-2  border-solid border-white rounded-lg' : 'flex items-center bg-gray-100 mb-4 sm:mb-0  border-2  border-solid border-black rounded-lg'}>
+
       {/* <label htmlFor="language" className="text-sm mr-2">Language</label> */}
       <select
         id="language"
-        className="bg-gray-100 text-black p-2 rounded-lg"
+        className="bg-transparent outline-none text -sd text-black-800 w-full  rounded-lg p-2 rounded-lg"
         value={selectedLanguage}
         onChange={(e) => setSelectedLanguage(e.target.value)}
       >
@@ -99,7 +98,6 @@ const LanguageFilter = ({
   );
 };
 
-
 const SortFilter = ({ sortBy, setSortBy }) => {
   const sortOptions = [
     "population-asc",
@@ -111,11 +109,11 @@ const SortFilter = ({ sortBy, setSortBy }) => {
   const sortedSortOptions = useMemo(() => sortOptions.sort(), [sortOptions]);
   const { isDarkMode } = useDarkMode();
   return (
-    <div className="flex items-center mb-4 sm:mb-0">
+    <div className={isDarkMode ? 'flex items-center bg-gray-400 mb-4 sm:mb-0  border-2  border-solid border-white rounded-lg' : 'flex items-center bg-gray-100 mb-4 sm:mb-0  border-2  border-solid border-black rounded-lg'}>
       {/* <label htmlFor="sort" className="text-sm mr-2">Sort By</label> */}
       <select
         id="sort"
-        className="bg-gray-100 text-black p-2 rounded-lg"
+        className="bg-transparent outline-none text -md text-black-900 w-full  rounded-lg p-2 rounded-lg"
         value={sortBy}
         onChange={(e) => setSortBy(e.target.value)}
       >
@@ -160,12 +158,13 @@ const FilterComponent = ({ countries, setFilteredCountries }) => {
     const allLanguages = countries.flatMap((country) =>
       Object.values(country.languages || {})
     );
+    // console.log(allLanguages)
     return [...new Set(allLanguages)];
   }, [countries]);
 
   const applyFilters = () => {
     let filtered = countries;
-
+    //console.log(filtered);
     if (searchQuery) {
       filtered = filtered.filter((country) =>
         country.name.common.toLowerCase().includes(searchQuery.toLowerCase())
@@ -212,7 +211,11 @@ const FilterComponent = ({ countries, setFilteredCountries }) => {
 
   return (
     <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-4 p-6 bg-white-100 text-black">
-      <SearchFilter searchQuery={searchQuery} setSearchQuery={setSearchQuery} isDarkMode={isDarkMode}/>
+      <SearchFilter
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+        isDarkMode={isDarkMode}
+      />
       <RegionFilter
         regions={regions}
         selectedRegion={selectedRegion}
@@ -224,15 +227,17 @@ const FilterComponent = ({ countries, setFilteredCountries }) => {
         subregions={subregions}
         selectedSubregion={selectedSubregion}
         setSelectedSubregion={setSelectedSubregion}
-
       />
       <LanguageFilter
         languages={languages}
         selectedLanguage={selectedLanguage}
         setSelectedLanguage={setSelectedLanguage}
-
       />
-      <SortFilter sortBy={sortBy} setSortBy={setSortBy}isDarkMode={isDarkMode} />
+      <SortFilter
+        sortBy={sortBy}
+        setSortBy={setSortBy}
+        isDarkMode={isDarkMode}
+      />
     </div>
   );
 };
