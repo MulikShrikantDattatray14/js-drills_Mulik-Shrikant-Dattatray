@@ -77,6 +77,7 @@ const App = () => {
         setLoading(false);
       } catch (error) {
         console.error("Error fetching countries:", error);
+        setLoading(false);
       } finally {
         setLoading(false);
       }
