@@ -33,15 +33,15 @@ const FilterComponent = ({ countries, setFilteredCountries }) => {
 
   const { isDarkMode } = useDarkMode();
 
-  const regions = useMemo(() => [...new Set(countries.map((country) => country.region))], [countries]);
+  const regions = useMemo(() => [...new Set(countries.map((country) => country.region))].sort(), [countries]);
   const subregions = useMemo(() => {
     if (!selectedRegion) return [];
-    return [...new Set(countries.filter((country) => country.region === selectedRegion).map((country) => country.subregion))];
+    return [...new Set(countries.filter((country) => country.region === selectedRegion).map((country) => country.subregion))].sort();
   }, [countries, selectedRegion]);
 
   const languages = useMemo(() => {
     const allLanguages = countries.flatMap((country) => Object.values(country.languages || {}));
-    return [...new Set(allLanguages)];
+    return [...new Set(allLanguages)].sort();
   }, [countries]);
 
   const applyFilters = () => {
