@@ -191,7 +191,9 @@ function CountryDetail({ countries }) {
   }
 
   const borderingCountries = countries.filter((c) =>
-    country.borders?.includes(c.cca3)
+     //console.log((country.borders ?.includes(c.cca3) ) ? c.name.common : "no border")
+   country.borders?.includes(c.cca3)
+   
   );
 
   return (

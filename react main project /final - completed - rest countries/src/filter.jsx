@@ -191,6 +191,7 @@ const FilterComponent = ({ countries, setFilteredCountries }) => {
 
     if (sortBy) {
       const [key, order] = sortBy.split("-");
+      //console.log(key,order)
       filtered = [...filtered].sort((a, b) =>
         order === "asc" ? a[key] - b[key] : b[key] - a[key]
       );
